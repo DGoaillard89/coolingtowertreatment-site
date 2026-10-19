@@ -544,6 +544,8 @@ td:first-child { font-weight: 600; }
 .post-card h3 { margin-top: 22px; font-size: 1.22rem; line-height: 1.2; }
 .post-card p { margin-top: 12px; font-size: 0.95rem; color: var(--muted); }
 .post-card .link-arrow { margin-top: auto; padding-top: 22px; }
+.posts > li { display: flex; background: var(--white); }
+.posts > li > .post-card { flex: 1; }
 .posts--list { grid-template-columns: 1fr 1fr; gap: 20px; background: none; border: 0; }
 .posts--list .post-card { height: 100%; border: 1px solid var(--line); }
 .empty-note { margin-top: 28px; font-size: 0.95rem; color: var(--muted); }
