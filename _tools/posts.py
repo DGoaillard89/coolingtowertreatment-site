@@ -362,4 +362,245 @@ POSTS = [
         "cta_title": "Dosing system playing up?",
         "cta_text": "Tell us what you're seeing. We'll check the kit, the chemistry and the records, and get the programme back on track.",
     },
+    # ------------------------------------------------------------------ 6
+    {
+        "slug": "cooling-tower-log-book",
+        "title": "What should be in a cooling tower log book?",
+        "seo_title": "What Should Be in a Cooling Tower Log Book? | ACOP L8",
+        "date": "2025-02-18",
+        "desc": "What a cooling tower log book should contain under ACOP L8 and HSG274 Part 1, how long to keep records and the gaps inspectors tend to find.",
+        "tag": "Records",
+        "topic": "Cooling tower log book and records",
+        "services": ["cooling-tower-log-books-compliance", "cooling-tower-legionella-risk-assessment", "cooling-tower-monitoring-sampling"],
+        "body": """
+          <p>If an inspector or environmental health officer visits your site to talk about your cooling towers, the first thing they'll ask for probably won't be to see the tower. It'll be the log book. That folder (or folder of PDFs) is how you prove the treatment programme is happening, not just that it was planned.</p>
+          <p>A good log book is also just useful. It's where trends show up, where problems get spotted early and where the next person to look after the site finds out what's been going on. February is a quiet month for most towers, so it's a good time to give yours a once-over. Here's what should be in it.</p>
+
+          <h2>What ACOP L8 says about records</h2>
+          <p>ACOP L8 expects the duty holder to keep records that show Legionella risks are being managed. In broad terms, that means records of:</p>
+          <ul>
+            <li>the people responsible for carrying out the risk assessment and managing and implementing the written scheme,</li>
+            <li>the significant findings of the risk assessment,</li>
+            <li>the written scheme and details of how it's being put into practice, and</li>
+            <li>the results of any monitoring, inspection, tests or checks, with the dates they were done.</li>
+          </ul>
+          <p>On how long to keep them: ACOP L8 says monitoring, inspection, test and check records should be kept for at least five years. Records such as the risk assessment and written scheme should be kept for as long as they're current and for at least two years after that. If in doubt, keep them. Storage is cheap; missing records aren't.</p>
+
+          <h2>A sensible layout</h2>
+          <p>There's no single official format, but a log book that's laid out logically makes life easier for everyone. Here's how we'd suggest organising it.</p>
+
+          <h3>1. Contacts and responsibilities</h3>
+          <p>The duty holder, the responsible person appointed to manage Legionella control (and their deputy), your water treatment contractor and anyone else with a defined role. Include how to reach them out of hours. If the responsible person changes, update it the same week.</p>
+
+          <h3>2. System description and drawings</h3>
+          <p>What you've got: number and type of towers or evaporative condensers, where they are, approximate water volumes, what they serve, dosing and bleed arrangements, and sample points. A simple schematic is worth a lot, especially to a new engineer on their first visit.</p>
+
+          <h3>3. Risk assessment and written scheme</h3>
+          <p>The current <a href="{R}cooling-tower-legionella-risk-assessment.html">Legionella risk assessment</a> and written scheme, with any action plan and evidence that actions have been closed out. Keep superseded versions too, filed separately.</p>
+
+          <h3>4. Notification</h3>
+          <p>A copy of the notification to the local authority under the Notification of Cooling Towers and Evaporative Condensers Regulations 1992, plus any updates. We wrote about this in <a href="{R}blog/notifying-local-authority-cooling-tower.html">do you need to notify the council?</a></p>
+
+          <h3>5. Routine monitoring</h3>
+          <p>This is the bulk of the book:</p>
+          <ul>
+            <li>Weekly dip slide or TVC results, with the date taken and date read</li>
+            <li>Chemistry results: conductivity, pH, biocide and inhibitor levels, hardness and so on, as your scheme specifies</li>
+            <li>Dosing checks: drum levels, pump operation, controller readings and bleed operation</li>
+            <li><em>Legionella</em> sample certificates from the UKAS-accredited lab</li>
+            <li>Visual inspection notes on the tower's condition</li>
+          </ul>
+          <p>Results are much more useful with the action levels printed next to them, so whoever fills in the sheet can see straight away if something's out of range.</p>
+
+          <h3>6. Cleaning and disinfection</h3>
+          <p>Certificates or reports for every clean and disinfection, showing what was done, chemical levels and contact times, and what was found. HSG274 Part 1 expects cooling towers to be cleaned and disinfected at least twice a year, so an inspector will look for at least two of these each year.</p>
+
+          <h3>7. Corrective actions</h3>
+          <p>Every out-of-range result or fault, what was done about it, by whom, and when it was closed out. This section often tells an inspector more about your site than anything else.</p>
+
+          <h3>8. Service visits and maintenance</h3>
+          <p>Service reports from your treatment contractor, calibration records for controllers and probes, and records of repairs to fill, drift eliminators, fans and pumps.</p>
+
+          <h3>9. Training and competence</h3>
+          <p>Evidence that the people doing the checks know what they're doing: training records for site staff who take dip slides or check dosing, and for the responsible person.</p>
+
+          <h3>10. Chemical safety</h3>
+          <p>COSHH assessments and safety data sheets for the treatment chemicals on site.</p>
+
+          <h2>The gaps we see most often</h2>
+          <ul>
+            <li><strong>Blank weeks.</strong> A missing weekly check is hard to explain afterwards. If a check couldn't be done, write down why.</li>
+            <li><strong>Results with no action.</strong> A high dip slide recorded, and then nothing. Every out-of-range result needs a note of what happened next.</li>
+            <li><strong>Out-of-date risk assessments.</strong> The assessment refers to plant that's been replaced, or people who've left.</li>
+            <li><strong>Missing cleaning certificates.</strong> The clean happened, but nobody filed the paperwork.</li>
+            <li><strong>No notification on file.</strong> Especially on sites that have changed hands.</li>
+          </ul>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a site where the weekly checks are done faithfully by the maintenance team, but the results live on a clipboard in the plant room and the lab certificates sit in the contractor's online portal. Nothing's actually missing, yet nobody can show the full picture in one place. Pulling it together into a single, logically ordered log book, paper or digital, turns a stressful inspection into a straightforward one.</p>
+          </div>
+
+          <h2>Paper or digital?</h2>
+          <p>Either is fine, as long as records are complete, legible, dated, and can be produced when someone asks. Digital log books make trends easier to spot and are harder to lose. Paper is simple and always in the plant room. Plenty of sites use a mix. What matters is that the records exist and someone actually reads them.</p>
+
+          <h2>Read it, don't just fill it</h2>
+          <p>The most valuable thing a log book does is show trends. A dip slide that creeps up over six weeks, or a biocide drum that's being used more slowly than usual, is your early warning. Ten minutes a month looking back over the last few pages can save a lot of trouble.</p>
+          <p>Our <a href="{R}cooling-tower-log-books-compliance.html">log books and compliance</a> service sets up and maintains the log book for you, updated on every visit. If yours has got a bit messy, or you've inherited one you don't trust, we're happy to go through it with you.</p>
+""",
+        "cta_title": "Log book in a state?",
+        "cta_text": "We'll go through what you've got, tell you plainly what's missing and set up a log book that's easy to keep on top of.",
+    },
+    # ------------------------------------------------------------------ 7
+    {
+        "slug": "data-centre-cooling-tower-water-treatment",
+        "title": "Data centre cooling towers: water treatment without risking uptime",
+        "seo_title": "Data Centre Cooling Tower Water Treatment & Legionella",
+        "date": "2025-05-06",
+        "desc": "How data centres can stay on top of cooling tower water treatment, cleaning and Legionella control without putting uptime at risk.",
+        "tag": "Sectors",
+        "topic": "Data centre cooling tower water treatment",
+        "services": ["cooling-tower-water-treatment", "cooling-tower-cleaning-disinfection", "chemical-dosing-biocide-control"],
+        "body": """
+          <p>Data centres have a slightly awkward relationship with cooling towers. The towers are essential to keeping the halls cool, so nobody wants to touch them. But leaving them alone is exactly what you can't do. ACOP L8 and HSG274 Part 1 apply to a data centre's towers in just the same way as an office block's, and the cleaning, monitoring and treatment still have to happen.</p>
+          <p>The good news is that keeping on top of water treatment and keeping the lights on aren't in conflict. It just takes more planning than most sites. Here's how to approach it, with summer heat loads just around the corner.</p>
+
+          <h2>Why data centres are a bit different</h2>
+          <ul>
+            <li><strong>Continuous load.</strong> Towers often run around the clock, all year. There's no natural winter shutdown to fit a clean into.</li>
+            <li><strong>Change control.</strong> Any work on cooling plant usually needs a method statement, a risk assessment, a change request and an agreed window.</li>
+            <li><strong>Access and security.</strong> Contractors need inductions, escorts and pre-booked access. A "quick visit" isn't really a thing.</li>
+            <li><strong>Equipment protection.</strong> Scale and corrosion don't just waste energy, they threaten heat exchangers and condensers that the whole facility relies on.</li>
+            <li><strong>Reputational risk.</strong> A Legionella problem at a well-known facility is a story nobody wants to be in.</li>
+          </ul>
+          <p>None of these are reasons to do less. They're reasons to plan earlier.</p>
+
+          <h2>Use the redundancy you've already got</h2>
+          <p>Most data centres are designed with spare cooling capacity, whether that's N+1 towers, multi-cell towers or standby chillers. That redundancy is your friend when it comes to cleaning. Typical approaches:</p>
+          <ul>
+            <li>Clean one cell at a time while the others carry the load.</li>
+            <li>Take one tower out of service while the standby runs, then swap.</li>
+            <li>Time cleans for spring and autumn, when outside temperatures give you more headroom.</li>
+          </ul>
+          <p>Bear in mind that a standby tower sitting full of water and never running is effectively a stagnant system. Rotating duty and standby, or circulating the standby regularly with treatment, keeps it ready and under control. We wrote more about that in <a href="{R}blog/cooling-tower-start-up-after-shutdown.html">bringing a tower back after a shutdown</a>.</p>
+
+          <h2>Make the dosing as reliable as the power</h2>
+          <p>Data centres put a lot of thought into backup power. Dosing deserves some of the same thinking, because a quiet dosing failure is one of the most common routes to a high count. Things worth considering:</p>
+          <ul>
+            <li>Alarms for low drum level, no flow and high conductivity, linked into the BMS so someone actually sees them</li>
+            <li>Spare chemical stock on site, stored safely in line with the safety data sheets</li>
+            <li>Regular calibration of conductivity probes and controllers</li>
+            <li>Clear labelling of drums and lines, so a drum change can't connect the wrong product</li>
+          </ul>
+          <p>Our post on <a href="{R}blog/cooling-tower-dosing-failures.html">spotting dosing failures early</a> goes through the common causes in more detail.</p>
+
+          <h2>Get the monitoring routine right</h2>
+          <p>Monitoring on a data centre tower is the same in principle as anywhere else: dip slides or TVCs at least weekly, chemistry checks as your scheme sets out, and <em>Legionella</em> sampling at least quarterly to a UKAS-accredited lab. The difference is making it fit the site's way of working:</p>
+          <ul>
+            <li>Agree standing access for routine monitoring visits so they don't need a fresh change request each time.</li>
+            <li>Put sample points where they can be reached safely without entering restricted areas unnecessarily.</li>
+            <li>Make sure results reach the facilities team quickly, with clear action levels, so a high result isn't sitting in someone's inbox.</li>
+          </ul>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a facility with three towers in an N+1 arrangement. Cleans keep slipping because nobody wants to raise the change request in summer, and by autumn the certificates are overdue. A better pattern is to fix the cleaning dates a year ahead, one tower at a time in spring and autumn, with the change requests drafted well in advance. The work becomes routine instead of a recurring argument.</p>
+          </div>
+
+          <h2>Plan for a positive result before you get one</h2>
+          <p>On a site where you can't easily shut the cooling down, the time to decide what happens after a high <em>Legionella</em> result is now, not when the certificate arrives. Your written scheme should cover:</p>
+          <ul>
+            <li>Who gets told, including out of hours</li>
+            <li>How an online disinfection would be done without disrupting cooling</li>
+            <li>How a tower could be isolated if the risk called for it, and what that means for capacity</li>
+            <li>Pre-approved method statements, so emergency work doesn't wait on paperwork</li>
+          </ul>
+          <p>Our <a href="{R}blog/positive-legionella-result-cooling-tower.html">first 48 hours guide</a> explains the response in general terms.</p>
+
+          <h2>What about adiabatic and hybrid coolers?</h2>
+          <p>Plenty of newer data centres use adiabatic or hybrid coolers instead of, or alongside, open cooling towers. They use far less water, but where a unit sprays or wets surfaces it can still create aerosol. HSG274 Part 1 expects the Legionella risk from any unit that can produce spray to be assessed, so don't assume they're automatically out of scope. Whether they need notifying to the local authority depends on the design, and it's worth getting a clear answer for your units.</p>
+
+          <h2>The short version</h2>
+          <p>Use your redundancy to clean on schedule, make dosing as resilient as everything else on site, agree access for routine monitoring and plan your response to a high result in advance. Our <a href="{R}cooling-tower-water-treatment.html">water treatment</a> and <a href="{R}cooling-tower-cleaning-disinfection.html">cleaning and disinfection</a> services are built around sites that can't switch off. If you'd like to talk through how that could work on yours, we're happy to.</p>
+""",
+        "cta_title": "Running cooling towers on a critical site?",
+        "cta_text": "Tell us about your plant and how much redundancy you've got. We'll suggest a treatment and cleaning plan that works around your uptime.",
+    },
+    # ------------------------------------------------------------------ 8
+    {
+        "slug": "dip-slides-tvc-cooling-tower",
+        "title": "Dip slides and TVCs explained: reading your weekly checks",
+        "seo_title": "Cooling Tower Dip Slides and TVCs Explained",
+        "date": "2025-08-19",
+        "desc": "How cooling tower dip slides work, how to take and read one properly, what TVC results mean against HSG274 Part 1 action levels and common mistakes.",
+        "tag": "Monitoring",
+        "topic": "Dip slides and TVC monitoring",
+        "services": ["cooling-tower-monitoring-sampling", "positive-legionella-result-response", "cooling-tower-log-books-compliance"],
+        "body": """
+          <p>The weekly dip slide is probably the most-done and least-understood check on a cooling tower. Someone dunks a little plastic paddle in the water, pops it in an incubator, reads it a couple of days later and writes a number in the log book. But what is that number actually telling you, and what should you do with it?</p>
+          <p>August is a good month to ask. Warm weather and heavy loads mean counts can move quickly, and the dip slide is usually the first place you'll see it. Here's a plain-English guide.</p>
+
+          <h2>What a dip slide measures</h2>
+          <p>A dip slide is a plastic paddle coated with a growth medium. You dip it in the cooling water, incubate it, and bacteria in the water grow into visible spots (colonies) on the surface. By comparing the slide with a chart supplied by the manufacturer, you get an estimate of the total viable count, or TVC: roughly how many bacteria per millilitre were in the water.</p>
+          <p>Two important points:</p>
+          <ul>
+            <li><strong>It's a general count, not a <em>Legionella</em> test.</strong> A dip slide tells you how active the bacterial population is overall, which shows whether the biocide regime is keeping up. <em>Legionella</em> needs a separate lab test, which HSG274 Part 1 expects at least quarterly.</li>
+            <li><strong>It's an estimate.</strong> Dip slide results are read in broad bands, usually powers of ten. That's fine, because what you're looking for is which band you're in and whether it's changing.</li>
+          </ul>
+
+          <h2>How often?</h2>
+          <p>HSG274 Part 1 expects microbiological activity in cooling water to be checked at least weekly, and dip slides are the usual way of doing it. Your written scheme should set the exact frequency and say who does it.</p>
+
+          <h2>Taking a dip slide properly</h2>
+          <p>Small details make a big difference to whether the result means anything:</p>
+          <ol>
+            <li><strong>Check the slide.</strong> Make sure it's in date and has been stored as the manufacturer says. Don't touch the agar surface.</li>
+            <li><strong>Sample the right water.</strong> Take it from a point that represents the circulating water, not right next to where biocide is injected, and not from a dead leg.</li>
+            <li><strong>Watch the timing.</strong> Avoid sampling straight after a shot dose of biocide, or you'll be measuring the dose, not the system. Your scheme should say when in the dosing cycle to sample.</li>
+            <li><strong>Dip, drain and label.</strong> Immerse the slide for the time the instructions say, let excess water drain, put it back in its tube and label it with the system, date and time.</li>
+            <li><strong>Incubate.</strong> Follow the manufacturer's instructions and your scheme for temperature and time. That's commonly around two days in an incubator.</li>
+            <li><strong>Read and record.</strong> Compare both sides of the slide with the chart, record the result and the date it was read, and note anything unusual, such as fungi or a slide that's completely covered.</li>
+          </ol>
+
+          <h2>What the results mean</h2>
+          <p>HSG274 Part 1 sets action levels for TVC in cooling water. As a simplified summary, which matches our <a href="{R}positive-legionella-result-response.html">positive result response</a> page:</p>
+          <ul>
+            <li><strong>Up to 10<sup>4</sup> cfu/ml:</strong> under control. Carry on with the programme and routine monitoring.</li>
+            <li><strong>Above 10<sup>4</sup>, up to 10<sup>5</sup> cfu/ml:</strong> review the programme and dosing, and re-test to confirm the count.</li>
+            <li><strong>Above 10<sup>5</sup> cfu/ml:</strong> take corrective action straight away, review the controls and re-test.</li>
+          </ul>
+          <p>Your written scheme should have the exact responses for your site. Write the action levels at the top of the record sheet so whoever reads the slide knows straight away whether it's a normal week.</p>
+
+          <h2>Trends matter more than single results</h2>
+          <p>A single reading in the lower band is reassuring. But a run of readings tells you far more. Watch for:</p>
+          <ul>
+            <li><strong>A slow creep.</strong> Counts edging up band by band over several weeks often means dosing is slipping or the system's getting dirty.</li>
+            <li><strong>A sudden jump.</strong> Usually something specific: an empty drum, a failed pump, a process leak, a change in operation.</li>
+            <li><strong>Counts that don't come down.</strong> If a high result doesn't improve after corrective action, the cause hasn't been found yet.</li>
+          </ul>
+          <p>Our post on <a href="{R}blog/cooling-tower-dosing-failures.html">dosing failures</a> covers the common causes of a rising count.</p>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a tower where dip slides have read in the lowest band all year. Then, over three hot weeks, they step up one band and stay there. Nothing's over an action level yet, but the trend is clear. A check finds the bleed valve sticking and the water more concentrated than it should be, which has been eating into the biocide. Fixing the valve brings the counts back down before anything needed escalating.</p>
+          </div>
+
+          <h2>Common mistakes</h2>
+          <ul>
+            <li>Reading the slide too early, or forgetting it in the incubator for a week</li>
+            <li>Using out-of-date slides, or ones stored somewhere hot</li>
+            <li>Sampling right after a biocide dose, which gives a falsely low result</li>
+            <li>Recording "OK" instead of the actual band</li>
+            <li>Writing down a high result and taking no action</li>
+          </ul>
+
+          <h2>Dip slides or lab TVCs?</h2>
+          <p>Some sites send TVC samples to a lab instead of, or as well as, using dip slides. Lab counts are more precise but take longer to come back and cost more. Dip slides are quick and cheap, and done properly they're a perfectly good weekly early warning. Many sites use dip slides weekly and lab samples at set intervals or after a high reading.</p>
+
+          <h2>In short</h2>
+          <p>Take the slide from the right place at the right time, incubate it properly, record the actual result and watch the trend. Our <a href="{R}cooling-tower-monitoring-sampling.html">monitoring and sampling</a> service can do it for you, or train your team and pick up the chemistry and lab work. All results go straight into your <a href="{R}cooling-tower-log-books-compliance.html">log book</a>, and anything out of range gets a clear next step.</p>
+""",
+        "cta_title": "Not sure what your dip slides are telling you?",
+        "cta_text": "Send us a few weeks of results and we'll talk you through them, or take the weekly checks off your hands altogether.",
+    },
 ]
