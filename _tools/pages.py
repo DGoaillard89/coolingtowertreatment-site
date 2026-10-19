@@ -284,7 +284,7 @@ def build_home():
       <div class="wrap local">
         <div>
           <span class="eyebrow">Coverage</span>
-          <h2>Nationwide, with a soft spot for London &amp; the Home Counties.</h2>
+          <h2>West London roots, towers looked after up and down the country.</h2>
           <p>We're based in Chiswick, West London, and most of our work is in London and the surrounding counties. We also look after sites across the rest of the UK, so if you manage plant in several regions, one contractor can cover the lot.</p>
           <ul class="areas">
             <li>Central London</li><li>West London</li><li>City &amp; Docklands</li><li>Surrey</li><li>Berkshire</li><li>Hertfordshire</li><li>Buckinghamshire</li><li>Kent</li><li>Essex</li><li>Middlesex</li><li>Slough &amp; the M4 corridor</li><li>Nationwide</li>

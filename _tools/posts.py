@@ -603,4 +603,291 @@ POSTS = [
         "cta_title": "Not sure what your dip slides are telling you?",
         "cta_text": "Send us a few weeks of results and we'll talk you through them, or take the weekly checks off your hands altogether.",
     },
+    # ------------------------------------------------------------------ 9
+    {
+        "slug": "cooling-tower-vs-evaporative-condenser",
+        "title": "Cooling tower or evaporative condenser? What it means for Legionella control",
+        "seo_title": "Cooling Tower vs Evaporative Condenser: Legionella Control",
+        "date": "2025-11-11",
+        "desc": "How cooling towers and evaporative condensers differ, why both carry a Legionella risk, and what changes for treatment, cleaning and monitoring.",
+        "tag": "Systems",
+        "topic": "Evaporative condenser treatment",
+        "services": ["cooling-tower-water-treatment", "cooling-tower-legionella-risk-assessment", "cooling-tower-cleaning-disinfection"],
+        "body": """
+          <p>"We haven't got a cooling tower, it's just the condenser for the cold store." We hear some version of this fairly often. And it's an understandable mix-up, because from the outside an evaporative condenser can look like a smallish cooling tower, and in day-to-day conversation the names get used loosely.</p>
+          <p>The difference matters less than people hope, though. Both use evaporation to reject heat, both create spray, and both are covered by the same law and guidance on Legionella. Here's how they differ, and what that means for keeping them under control.</p>
+
+          <h2>How a cooling tower works</h2>
+          <p>A wet cooling tower cools water. Warm water comes back from whatever it's been cooling (usually a chiller's condenser or a process heat exchanger), is sprayed or distributed over fill inside the tower, and a fan pulls air through it. A small amount of the water evaporates, which takes heat with it, and the cooler water collects in the pond at the bottom before being pumped back round.</p>
+          <p>The key point: the water in the tower circulates through pipework to equipment elsewhere on site. So the "system" isn't just the tower. It's the pond, the pumps, the pipework, the heat exchangers and any dead legs along the way.</p>
+
+          <h2>How an evaporative condenser works</h2>
+          <p>An evaporative condenser cuts out the middle step. Instead of cooling water and sending it off to a separate condenser, the refrigerant itself runs through a coil inside the unit. Water is sprayed over the outside of the coil, a fan pulls air across, some water evaporates, and the refrigerant inside condenses. The spray water drops into a sump and is pumped back up to the sprays.</p>
+          <p>You'll often find evaporative condensers on industrial refrigeration, cold stores, food and drink sites and some larger air conditioning plant. Closed-circuit coolers work on a similar idea, with a process fluid in the coil instead of refrigerant.</p>
+
+          <h2>What's the same</h2>
+          <p>From a Legionella point of view, quite a lot:</p>
+          <ul>
+            <li><strong>Warm water and spray.</strong> Both have recirculating water at temperatures that can suit bacterial growth, and both throw out aerosol that people nearby could breathe in.</li>
+            <li><strong>Same law and guidance.</strong> The Health and Safety at Work etc. Act 1974, COSHH, ACOP L8 and HSG274 Part 1 all apply. HSG274 Part 1 covers both types of system.</li>
+            <li><strong>Same notification duty.</strong> The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 cover both, as the name suggests. We explain how that works in <a href="{R}blog/notifying-local-authority-cooling-tower.html">do you need to notify the council?</a></li>
+            <li><strong>Same building blocks.</strong> A risk assessment, a written scheme, a treatment programme, regular monitoring, cleaning and disinfection, and records.</li>
+          </ul>
+
+          <h2>What's different in practice</h2>
+          <p>The differences are mostly about how the control measures work day to day:</p>
+          <ul>
+            <li><strong>Smaller water volume.</strong> Evaporative condensers often hold much less water than a cooling tower system. Chemistry can change quickly, so a dosing fault or a stuck bleed shows up faster, and dosing needs to be well matched to the system.</li>
+            <li><strong>The coil is the heat transfer surface.</strong> Scale or biofilm on the coil goes straight to refrigeration performance and energy use. Good inhibitor control and bleed management pay for themselves.</li>
+            <li><strong>Cleaning access.</strong> Getting to the coil, sprays and sump for a proper clean can be fiddlier than on an open tower, and some units need panels removed or specific access arrangements. That needs planning, especially on sites that can't lose refrigeration.</li>
+            <li><strong>Cleaning frequency.</strong> HSG274 Part 1 expects cooling towers to be cleaned and disinfected at least twice a year. For evaporative condensers, the frequency should be set by your risk assessment, taking account of the guidance. Either way, it goes in the written scheme.</li>
+            <li><strong>Different people looking after it.</strong> Evaporative condensers are often maintained by refrigeration engineers rather than the building services team. Make sure someone's clearly responsible for the water side, not just the refrigerant side.</li>
+          </ul>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a food distribution site with an evaporative condenser serving its cold rooms. The refrigeration contractor services the plant carefully, but water treatment has never been formally set up because everyone thought of it as "part of the fridge". There's no risk assessment covering it and it's never been notified. Getting it covered is simple: assess it, notify it, set up treatment and monitoring, and agree who does what between the refrigeration and water treatment contractors.</p>
+          </div>
+
+          <h2>And dry or adiabatic coolers?</h2>
+          <p>A dry cooler with no water involved isn't a cooling tower or an evaporative condenser, so it's outside the notification regulations. Adiabatic and hybrid coolers sit in between. Some spray water onto pads or coils in hot weather, which can create aerosol in some designs. HSG274 Part 1 expects the Legionella risk from any unit that can produce spray to be assessed. If you're not sure where a unit sits, get competent advice rather than assuming.</p>
+
+          <h2>How to tell what you've got</h2>
+          <p>If you're not sure, a few quick questions usually settle it:</p>
+          <ul>
+            <li>Does water leave the unit and travel to equipment elsewhere on site? That's a cooling tower.</li>
+            <li>Is there a coil inside with refrigerant or process fluid in it, and water sprayed over it? That's an evaporative condenser or closed-circuit cooler.</li>
+            <li>Is there no water involved at all? That's a dry cooler.</li>
+          </ul>
+          <p>The nameplate and the manufacturer's literature will usually confirm it.</p>
+
+          <h2>The bottom line</h2>
+          <p>Whatever it's called, if it recirculates water and makes spray, it needs a <a href="{R}cooling-tower-legionella-risk-assessment.html">Legionella risk assessment</a>, a <a href="{R}cooling-tower-water-treatment.html">treatment programme</a>, monitoring and regular <a href="{R}cooling-tower-cleaning-disinfection.html">cleaning and disinfection</a>. We look after evaporative condensers as well as cooling towers, and we're happy to work alongside your refrigeration contractor. If you've got a unit you're not sure about, give us a ring.</p>
+""",
+        "cta_title": "Got an evaporative condenser nobody's quite sure about?",
+        "cta_text": "Tell us what's on site. We'll help you work out what it is, what it needs and who should be looking after the water.",
+    },
+    # ------------------------------------------------------------------ 10
+    {
+        "slug": "cooling-tower-bleed-conductivity-control",
+        "title": "Bleed-off and conductivity control: getting cycles of concentration right",
+        "seo_title": "Cooling Tower Bleed-Off & Cycles of Concentration",
+        "date": "2026-02-24",
+        "desc": "What cycles of concentration mean, how bleed-off and conductivity control work, and what happens when the setpoint is too high or too low.",
+        "tag": "Chemistry",
+        "topic": "Cooling tower bleed and conductivity control",
+        "services": ["chemical-dosing-biocide-control", "cooling-tower-water-treatment", "cooling-tower-monitoring-sampling"],
+        "body": """
+          <p>Of all the bits of kit on a cooling tower, the bleed valve gets the least love. It's a small solenoid valve and a probe, tucked away in the pipework, quietly letting water go to drain. But get it wrong and you'll either be pouring water and chemicals down the drain, or slowly scaling up the system and making life easier for bacteria.</p>
+          <p>February is a good time to look at it. Loads are low, the tower's ticking over, and it's a sensible moment to check your setpoints before the summer heat arrives. Here's how it all works.</p>
+
+          <h2>Why towers need bleeding at all</h2>
+          <p>A cooling tower loses water by evaporation. But only the water evaporates. The dissolved minerals and salts that came in with the mains water stay behind. Top the tower up with fresh water, more minerals come in, more water evaporates, and the concentration keeps rising.</p>
+          <p>Left alone, the water would eventually get so concentrated that minerals start coming out of solution as scale. Bleed-off (sometimes called blowdown) deliberately drains some of the concentrated water away so it can be replaced with fresher make-up water. That keeps the concentration where you want it.</p>
+
+          <h2>What "cycles of concentration" means</h2>
+          <p>Cycles of concentration is just a way of saying how concentrated the tower water is compared with the make-up water. It's usually worked out from conductivity, which goes up as dissolved solids go up.</p>
+          <p>To keep the maths simple: if your make-up water reads 500 µS/cm and the tower water reads 2,000 µS/cm, the tower water is four times as concentrated, so you're running at four cycles. That's an illustration, not a target. The right number for your tower depends on your water and your treatment programme.</p>
+
+          <h2>How conductivity control works</h2>
+          <p>Most towers use a conductivity controller. A probe in the circulating water measures conductivity continuously. When it rises above a setpoint, the controller opens the bleed valve and concentrated water goes to drain. Make-up water comes in through the ball valve or level control to replace it, conductivity drops, and the bleed valve closes again.</p>
+          <p>On many systems the inhibitor is dosed in proportion to make-up water, using a pulsing water meter, so as fresh water comes in, the right amount of inhibitor goes in with it. Biocide dosing is often linked to the bleed too, with the bleed locked out for a period after a shot dose so the biocide isn't drained away before it's had time to work. Those timings come from your treatment programme.</p>
+
+          <h2>What happens when the setpoint is wrong</h2>
+          <h3>Too high (not enough bleed)</h3>
+          <ul>
+            <li>Scale forms on heat exchangers, fill and pipework, cutting efficiency and raising energy use</li>
+            <li>Deposits give bacteria somewhere to settle and make biocides less effective</li>
+            <li>Corrosion can increase in some water chemistries</li>
+            <li>Suspended solids build up, adding to sludge in the pond</li>
+          </ul>
+          <h3>Too low (too much bleed)</h3>
+          <ul>
+            <li>Water use and water bills go up</li>
+            <li>Treatment chemicals go down the drain before they've done their job, so chemical costs go up too</li>
+            <li>Inhibitor levels can drop if dosing doesn't keep pace</li>
+          </ul>
+          <p>The setpoint is a balance, and it should be set by whoever designs your treatment programme based on your make-up water quality (things like hardness and alkalinity) and the inhibitor you're using. Hard water areas, which include much of London and the South East, need particular care. Some sites soften the make-up water to allow more cycles.</p>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Picture a tower where the conductivity controller shows a steady, healthy reading week after week. It all looks fine, but the water bill is creeping up and there's white scale appearing on the fill. A handheld meter tells a different story: the probe is coated and reading low, the actual conductivity is well above setpoint, and meanwhile the bleed valve has been opening at odd times. Cleaning and recalibrating the probe, and fixing the valve, gets things back where they should be.</p>
+          </div>
+
+          <h2>Simple checks you can build in</h2>
+          <ol>
+            <li><strong>Compare readings.</strong> Check the controller reading against a calibrated handheld meter regularly. If they disagree, believe the handheld and get the probe looked at.</li>
+            <li><strong>Watch the bleed operate.</strong> Does the valve open when conductivity reaches the setpoint and close again afterwards? Is water running to drain when it shouldn't be?</li>
+            <li><strong>Read the water meters.</strong> If you have meters on make-up and bleed, record them. Sudden changes in water use are an early sign of a problem.</li>
+            <li><strong>Keep an eye on chemistry.</strong> Conductivity, pH, hardness and inhibitor levels, as your written scheme sets out. Our <a href="{R}cooling-tower-monitoring-sampling.html">monitoring</a> page covers the usual frequencies.</li>
+            <li><strong>Look for scale.</strong> White or crusty deposits on the fill, pond walls or around the distribution are a visual clue that concentration has been too high.</li>
+          </ol>
+          <p>Record it all in the log book. As we said in our post on <a href="{R}blog/cooling-tower-log-book.html">what goes in a log book</a>, trends are where the value is.</p>
+
+          <h2>Don't forget the low-load months</h2>
+          <p>In winter, many towers run at low load. There's less evaporation, so less make-up, less bleed and less inhibitor going in if dosing is proportional to make-up. Biocide still needs to reach the whole system, and low flow can leave parts of it stagnant. It's worth checking with your treatment contractor that the programme still works at low load, not just in summer.</p>
+
+          <h2>In short</h2>
+          <p>Bleed control keeps the water from getting too concentrated, and the setpoint is a balance between scale and waste. Keep the probe clean and calibrated, check the valve works, and watch the trends. A stuck bleed valve is one of the classic causes of trouble, alongside the others in our post on <a href="{R}blog/cooling-tower-dosing-failures.html">dosing failures</a>. Our <a href="{R}chemical-dosing-biocide-control.html">dosing and control</a> service includes calibration and checks on every visit, and if you'd like your setpoints reviewed before summer, just ask.</p>
+""",
+        "cta_title": "Want your bleed and setpoints checked?",
+        "cta_text": "We'll check the controller, probe and valve, compare the chemistry with your make-up water and suggest sensible setpoints.",
+    },
+    # ------------------------------------------------------------------ 11
+    {
+        "slug": "cooling-tower-handover-checklist",
+        "title": "Taking over a site with cooling towers: a handover checklist",
+        "seo_title": "Taking Over a Site With Cooling Towers: Handover Checklist",
+        "date": "2026-05-13",
+        "desc": "New FM contract, new lease or newly acquired site with cooling towers? A practical handover checklist covering records, roles, notification and the plant.",
+        "tag": "Compliance",
+        "topic": "Cooling tower site handover",
+        "services": ["cooling-tower-log-books-compliance", "cooling-tower-legionella-risk-assessment", "cooling-tower-water-treatment"],
+        "body": """
+          <p>You've just taken over a site. Maybe it's a new facilities management contract, a new lease, or a building your company has bought. There's a lot to get your head around, and somewhere on the roof (or in the plant yard) there are cooling towers. They come with their own set of legal duties, and those duties don't pause while the handover is going on.</p>
+          <p>Handovers are where things fall through the cracks. The outgoing team knew how it all worked, the paperwork was "somewhere", and the treatment contract ended on Friday. Here's a practical checklist to make sure your towers stay under control from day one.</p>
+
+          <h2>First, work out who the duty holder is</h2>
+          <p>Under ACOP L8, the duty to manage Legionella risk sits with the employer or the person in control of the premises. On a leased or managed site, that can be split between landlord, tenant and facilities manager, depending on the lease and contracts. Before anything else, get clear on who holds the duty for the cooling towers, and make sure it's written down. Everything else follows from that.</p>
+
+          <h2>The handover checklist</h2>
+
+          <h3>People and responsibilities</h3>
+          <ul>
+            <li>Has a responsible person been appointed to manage Legionella control, and a deputy? If the previous one has left with the outgoing contract, appoint a new one in writing.</li>
+            <li>Do they have the training and authority to do the job?</li>
+            <li>Who's the water treatment contractor? Is the contract continuing, ending or being retendered?</li>
+          </ul>
+
+          <h3>The plant</h3>
+          <ul>
+            <li>How many cooling towers and evaporative condensers are there, including standby, seasonal and "disused" units? Are the disused ones actually disconnected?</li>
+            <li>Is there a schematic showing towers, pumps, dosing, bleed and sample points?</li>
+            <li>What state is it all in? A walk-round with someone who knows towers is worth booking early.</li>
+          </ul>
+
+          <h3>Risk assessment and written scheme</h3>
+          <ul>
+            <li>Is there a current <a href="{R}cooling-tower-legionella-risk-assessment.html">Legionella risk assessment</a> covering the towers?</li>
+            <li>Does it reflect the plant as it is now, and the current people and contracts? A change of management is itself a reason to review it.</li>
+            <li>Is there a written scheme, and is anyone actually following it?</li>
+            <li>Are actions from the last assessment closed out?</li>
+          </ul>
+
+          <h3>Records</h3>
+          <ul>
+            <li>Is there a log book, and is it complete? Look for weekly dip slides, chemistry, dosing checks, <em>Legionella</em> results from a UKAS-accredited lab, and corrective actions.</li>
+            <li>When was the last clean and disinfection? Is there a certificate? HSG274 Part 1 expects cooling towers to be done at least twice a year.</li>
+            <li>When was the last <em>Legionella</em> sample, and what did it show? Any recent high results, and were they followed up?</li>
+          </ul>
+          <p>Our post on <a href="{R}blog/cooling-tower-log-book.html">what should be in a cooling tower log book</a> is a useful companion here.</p>
+
+          <h3>Notification</h3>
+          <ul>
+            <li>Is there a copy of the notification to the local authority under the Notification of Cooling Towers and Evaporative Condensers Regulations 1992?</li>
+            <li>Is it in the right name and up to date? If control of the premises has changed, the council's record may need updating. See <a href="{R}blog/notifying-local-authority-cooling-tower.html">do you need to notify the council?</a></li>
+          </ul>
+
+          <h3>Chemicals and safety</h3>
+          <ul>
+            <li>What treatment chemicals are on site, and are there COSHH assessments and safety data sheets for them?</li>
+            <li>Is chemical storage safe, bunded where needed and clearly labelled?</li>
+            <li>Is there safe access to the towers, with any permits, working at height arrangements and isolations documented?</li>
+          </ul>
+
+          <h2>Avoid the gap</h2>
+          <p>The single biggest risk at handover is a gap in service. The outgoing contractor's last visit is on the 28th, the new contractor's first visit is "sometime next month", and in between nobody is checking the dosing or taking dip slides. Plan it so there's no break: agree the end date of one contract and the start date of the next, make sure chemical stock won't run out in between, and get the records handed over before the outgoing team leaves.</p>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a new FM provider starting on a multi-building site. The outgoing provider's treatment contract ends on the same day. The log book turns up a fortnight later, with the last month of entries missing and a cleaning certificate that's eight months old. The new team's first jobs are clear: get monitoring going straight away, book a clean, review the risk assessment and update the notification in the new duty holder's name.</p>
+          </div>
+
+          <h2>Your first 30 days</h2>
+          <ol>
+            <li>Confirm the duty holder and appoint the responsible person in writing.</li>
+            <li>Make sure monitoring and dosing carry on without a break.</li>
+            <li>Gather every record you can find and identify the gaps.</li>
+            <li>Get a competent person to inspect the towers and the treatment kit.</li>
+            <li>Book anything that's overdue, such as a clean, a <em>Legionella</em> sample or a risk assessment review.</li>
+            <li>Update the local authority notification if needed.</li>
+            <li>Brief site staff who'll be doing weekly checks, and give them simple record sheets.</li>
+          </ol>
+
+          <h2>How we can help</h2>
+          <p>Taking on a new site is exactly when a fresh pair of eyes helps. We can audit the records, inspect the plant, review the risk assessment and set up a <a href="{R}cooling-tower-water-treatment.html">water treatment</a> and <a href="{R}cooling-tower-log-books-compliance.html">compliance</a> programme that starts on the right day. If you've just inherited some towers and you're not sure where you stand, give us a call.</p>
+""",
+        "cta_title": "Just inherited some cooling towers?",
+        "cta_text": "We'll audit the records, look at the plant and give you a clear list of what needs doing first, with no gap in treatment.",
+    },
+    # ------------------------------------------------------------------ 12
+    {
+        "slug": "cooling-tower-heatwave-legionella-risk",
+        "title": "Heatwaves and cooling towers: why hot spells test your controls",
+        "seo_title": "Heatwaves and Cooling Towers: Managing Legionella Risk",
+        "date": "2026-08-18",
+        "desc": "Why hot weather puts cooling tower Legionella controls under pressure, what tends to go wrong in a heatwave and a practical checklist before the next one.",
+        "tag": "Seasonal",
+        "topic": "Cooling tower heatwave preparation",
+        "services": ["cooling-tower-water-treatment", "chemical-dosing-biocide-control", "cooling-tower-monitoring-sampling"],
+        "body": """
+          <p>When the weather turns properly hot, everyone notices the air conditioning. Fewer people think about what's happening on the roof. But a heatwave is one of the toughest tests a cooling tower faces all year, and it's when small weaknesses in a treatment programme tend to show up.</p>
+          <p>Here's why hot spells put pressure on Legionella control, what tends to go wrong, and how to get ready before the next one, whether that's next week or next summer.</p>
+
+          <h2>Why heat matters</h2>
+          <p><em>Legionella</em> bacteria grow best in water between roughly 20 and 45°C, which is the range ACOP L8 and HSG274 highlight. Cooling tower water sits in or near that range for much of its working life. In a heatwave, the water returning from the plant is warmer, the pond is warmer and the whole system spends more time in the zone bacteria like.</p>
+          <p>At the same time, the tower is working harder than usual. That changes almost everything about how the treatment programme behaves.</p>
+
+          <h2>What a heatwave does to your system</h2>
+          <ul>
+            <li><strong>More evaporation.</strong> The tower evaporates more water, so it needs more make-up water and the water concentrates faster. The bleed valve works harder to keep conductivity in check.</li>
+            <li><strong>Chemicals get used faster.</strong> More make-up and more bleed mean more inhibitor and biocide going in. Drums that normally last a month can empty much sooner.</li>
+            <li><strong>Higher biocide demand.</strong> Warm water and more organic material mean bacteria grow faster and use up biocide more quickly.</li>
+            <li><strong>More dirt.</strong> Dry weather means more dust and pollen in the air, and the tower's moving more air through it. More debris ends up in the pond.</li>
+            <li><strong>Fans at full speed.</strong> Towers running flat out move more air, so the drift eliminators are working harder too. Damaged or poorly fitted eliminators let more aerosol escape.</li>
+            <li><strong>Standby units called into service.</strong> On sites with spare capacity, towers that have been sitting idle may be switched on to cope with the load. If they've been standing full of untreated water, that's a real risk.</li>
+          </ul>
+
+          <h2>What tends to go wrong</h2>
+          <p>Put those together and the classic heatwave problems are:</p>
+          <ul>
+            <li>A chemical drum running dry earlier than expected, often over a weekend</li>
+            <li>Bleed not keeping up, so the water over-concentrates and scale starts to form</li>
+            <li>Dip slide counts stepping up as biocide levels struggle to keep pace</li>
+            <li>A standby tower switched on without the checks it needed first</li>
+          </ul>
+          <p>None of these is unusual, and all of them can be prevented or caught early. We cover the common faults in our post on <a href="{R}blog/cooling-tower-dosing-failures.html">dosing failures</a>, and how to read rising counts in <a href="{R}blog/dip-slides-tvc-cooling-tower.html">dip slides and TVCs explained</a>.</p>
+
+          <div class="callout">
+            <span class="callout__k">A typical scenario</span>
+            <p>Imagine a building where a long hot spell pushes the main tower hard for two weeks. The biocide drum, which usually lasts the whole month between service visits, runs out on day ten. Over the same period the facilities team switches on the standby tower to help with the load, straight from idle. A week later the dip slides from both towers are up. A pre-summer check, with extra chemical stock on site and a plan for the standby tower, would have headed off both problems.</p>
+          </div>
+
+          <h2>A pre-heatwave checklist</h2>
+          <p>Ideally, do this in late spring, before the first hot week. If the forecast is already looking warm, do it now:</p>
+          <ol>
+            <li><strong>Check chemical stock.</strong> Make sure there's enough on site to cover heavier use, stored safely in line with the safety data sheets.</li>
+            <li><strong>Check the dosing kit.</strong> Pumps primed and delivering, lines clear, controllers calibrated, bleed valve working.</li>
+            <li><strong>Inspect the tower.</strong> Pond clean, fill in good condition, drift eliminators intact and properly seated.</li>
+            <li><strong>Check when the last clean was.</strong> If a clean is due soon, consider doing it before the hot weather rather than in the middle of it.</li>
+            <li><strong>Plan for standby units.</strong> If a standby tower might be needed, make sure it's been kept circulating with treatment, or cleaned and disinfected, so it's ready to run. See <a href="{R}blog/cooling-tower-start-up-after-shutdown.html">bringing a tower back after a shutdown</a>.</li>
+            <li><strong>Agree extra checks.</strong> Your risk assessment may call for more frequent monitoring during periods of high load. Agree with your treatment contractor what that looks like.</li>
+          </ol>
+
+          <h2>During the heatwave</h2>
+          <ul>
+            <li>Check drum levels more often than usual, and before weekends.</li>
+            <li>Keep weekly dip slides going without fail, and look at the trend, not just the number.</li>
+            <li>Watch conductivity and make sure the bleed is coping.</li>
+            <li>If something looks wrong, act on it quickly and record what you did.</li>
+          </ul>
+          <p>If a result comes back above an action level, follow your written scheme. Our guide to <a href="{R}blog/positive-legionella-result-cooling-tower.html">the first 48 hours after a positive result</a> walks through it.</p>
+
+          <h2>After the hot spell</h2>
+          <p>Once things cool down, take a look back. Did anything run out or fail? Did counts move? Is there more scale or sludge than before? If so, it might be time to bring a clean forward or review the treatment programme and risk assessment before next summer. With hot spells becoming a regular part of British summers, it's worth building heatwave planning into your written scheme rather than treating it as a one-off.</p>
+          <p>Our <a href="{R}cooling-tower-water-treatment.html">water treatment</a> and <a href="{R}chemical-dosing-biocide-control.html">dosing</a> services include pre-summer checks as standard. If you'd like us to look over your system before the next heatwave, give us a ring.</p>
+""",
+        "cta_title": "Want your towers ready for the next hot spell?",
+        "cta_text": "We'll check the dosing, chemical stock, bleed and tower condition, and agree a sensible monitoring plan for high-load periods.",
+    },
 ]
