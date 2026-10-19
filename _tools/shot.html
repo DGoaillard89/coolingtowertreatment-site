@@ -1,0 +1,23 @@
+<!doctype html><html><head><style>html,body{margin:0;overflow:hidden}iframe{border:0;display:block}</style></head><body>
+<iframe id="f"></iframe>
+<script>
+// Local screenshot harness (not published: Jekyll ignores _tools). Usage: /_tools/shot.html?u=/index.html&w=390&h=3000&a=form|invalid|success
+const q = new URLSearchParams(location.search), f = document.getElementById("f");
+f.width = q.get("w") || 390; f.height = q.get("h") || 844; f.src = q.get("u") || "/";
+f.onload = () => {
+  const w = f.contentWindow, d = f.contentDocument, a = q.get("a");
+  window.__calls = [];
+  w.fetch = (url, opts) => { window.__calls.push({ url, body: JSON.parse(opts.body) }); document.title = "FETCH " + opts.body; return Promise.resolve({ ok: true, status: 200 }); };
+  if (!a) return;
+  setTimeout(() => {
+    if (a === "menu") return d.querySelector(".nav-toggle").click();
+    d.querySelector("[data-open-enquiry]").click();
+    const form = d.getElementById("enquiry-form");
+    if (a === "invalid") { form.elements.email.value = "not-an-email"; form.requestSubmit(); }
+    if (a === "success") {
+      Object.entries({ name: "Test Person", email: ["test", "example.com"].join(String.fromCharCode(64)), phone: "020 0000 0000", postcode: "w45py", message: "Two towers, test only." }).forEach(([k, v]) => (form.elements[k].value = v));
+      form.requestSubmit();
+    }
+  }, 300);
+};
+</script></body></html>
