@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Line icons on a 48 grid. Stroke colour/width come from the page (.icon). -->
+
+  <!-- Services -->
+  <symbol id="tower" viewBox="0 0 48 48">
+    <path d="M14 8h20c-3 10-3 18 4 32H10c7-14 7-22 4-32Z" />
+    <path d="M14.6 16h18.8M13.4 24h21.2M12 32h24" opacity=".55" />
+    <path d="M6 40h36" />
+    <path d="M20 4v-1M24 5V2M28 4v-1" />
+  </symbol>
+  <symbol id="programme" viewBox="0 0 48 48">
+    <path d="M24 5s-12 13-12 22a12 12 0 0 0 24 0C36 18 24 5 24 5Z" />
+    <path d="M18 29a6 6 0 0 0 6 6" />
+    <circle cx="36" cy="38" r="6" />
+    <path d="M36 30v2M36 44v2M28 38h2M42 38h2M30.3 32.3l1.4 1.4M40.3 42.3l1.4 1.4M30.3 43.7l1.4-1.4M40.3 33.7l1.4-1.4" />
+  </symbol>
+  <symbol id="dosing" viewBox="0 0 48 48">
+    <rect x="6" y="14" width="14" height="28" rx="1.5" />
+    <path d="M6 22h14M10 14V9h6v5" />
+    <circle cx="31" cy="30" r="6" />
+    <path d="M20 30h5M37 30h5V18" />
+    <path d="M39 13l3 5 3-5" />
+    <path d="M29 28l4 2-4 2" />
+  </symbol>
+  <symbol id="monitor" viewBox="0 0 48 48">
+    <path d="M7 32a17 17 0 1 1 34 0" />
+    <path d="M24 32l9-11" />
+    <circle cx="24" cy="32" r="2.5" />
+    <path d="M11 32h3M34 32h3M13.5 20.5l2 2M34.5 20.5l-2 2M24 15v3" />
+    <rect x="6" y="38" width="36" height="6" rx="1" />
+  </symbol>
+  <symbol id="sample" viewBox="0 0 48 48">
+    <path d="M18 4h12M20 4v6h8V4" />
+    <path d="M17 14h14l1 4v24a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2V18Z" />
+    <path d="M16 26h16" />
+    <path d="M20 33h8M20 38h5" />
+  </symbol>
+  <symbol id="clean" viewBox="0 0 48 48">
+    <path d="M8 18h12l4 4v6H8Z" />
+    <path d="M24 25h4" />
+    <path d="M12 28v14h8V28" />
+    <path d="M14 18v-6h4" />
+    <path d="M32 19l8-4M32 25h10M32 31l8 4" />
+    <circle cx="36" cy="10" r="1" /><circle cx="44" cy="25" r="1" /><circle cx="36" cy="40" r="1" />
+  </symbol>
+  <symbol id="assessment" viewBox="0 0 48 48">
+    <rect x="9" y="7" width="30" height="37" rx="1.5" />
+    <path d="M18 4h12v6H18Z" />
+    <path d="M15 20l3 3 5-6M27 20h6M15 30l3 3 5-6M27 30h6M15 39h18" />
+  </symbol>
+  <symbol id="logbook" viewBox="0 0 48 48">
+    <path d="M10 6h26a2 2 0 0 1 2 2v34a2 2 0 0 1-2 2H10Z" />
+    <path d="M10 6v38M16 6v38" />
+    <path d="M22 14h10M22 20h10M22 26h6" />
+    <path d="M38 12h4M38 20h4M38 28h4" />
+  </symbol>
+  <symbol id="alert" viewBox="0 0 48 48">
+    <path d="M24 5 44 41H4Z" />
+    <path d="M24 18v11" />
+    <circle cx="24" cy="34.5" r="1.2" />
+  </symbol>
+  <symbol id="power" viewBox="0 0 48 48">
+    <path d="M24 6v16" />
+    <path d="M14 11a16 16 0 1 0 20 0" />
+    <path d="M17 32h14" opacity=".55" />
+  </symbol>
+  <symbol id="notify" viewBox="0 0 48 48">
+    <path d="M6 12h36v26H6Z" />
+    <path d="M6 12l18 14 18-14" />
+    <path d="M30 4l4 4M18 4l-4 4" opacity=".55" />
+  </symbol>
+
+  <!-- Sectors -->
+  <symbol id="datacentre" viewBox="0 0 48 48">
+    <rect x="8" y="6" width="32" height="10" rx="1" /><rect x="8" y="19" width="32" height="10" rx="1" /><rect x="8" y="32" width="32" height="10" rx="1" />
+    <path d="M13 11h2M13 24h2M13 37h2M22 11h12M22 24h12M22 37h12" />
+  </symbol>
+  <symbol id="hospital" viewBox="0 0 48 48">
+    <path d="M8 42V14h32v28M4 42h40" />
+    <path d="M24 19v12M18 25h12" />
+    <path d="M18 14V7h12v7" />
+    <path d="M20 42v-6h8v6" />
+  </symbol>
+  <symbol id="factory" viewBox="0 0 48 48">
+    <path d="M4 42V22l10 6v-6l10 6v-6l10 6V8h8v34Z" />
+    <path d="M11 35h4M20 35h4M29 35h4" />
+  </symbol>
+  <symbol id="food" viewBox="0 0 48 48">
+    <path d="M6 42V20h36v22M2 42h44" />
+    <path d="M6 20l6-8h24l6 8" />
+    <path d="M16 28h16v8H16Z" />
+    <path d="M24 6c3 0 3 3 6 3" opacity=".55" />
+  </symbol>
+  <symbol id="office" viewBox="0 0 48 48">
+    <path d="M10 42V6h20v36M30 18h10v24M4 42h40" />
+    <path d="M16 12h2M22 12h2M16 19h2M22 19h2M16 26h2M22 26h2M16 33h2M22 33h2M35 25h1M35 32h1" />
+  </symbol>
+  <symbol id="contractor" viewBox="0 0 48 48">
+    <path d="M8 30a16 16 0 0 1 32 0" />
+    <path d="M4 30h40v5H4Z" />
+    <path d="M20 14v8M28 14v8" />
+    <path d="M18 14h12" />
+  </symbol>
+  <symbol id="leisure" viewBox="0 0 48 48">
+    <path d="M4 42h40M8 42V18h32v24" />
+    <path d="M14 18V8h20v10" />
+    <path d="M14 34c3 0 3-2 5-2s2 2 5 2 3-2 5-2 2 2 5 2" />
+    <path d="M14 26h20" opacity=".55" />
+  </symbol>
+
+  <!-- UI -->
+  <symbol id="phone" viewBox="0 0 24 24">
+    <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" />
+  </symbol>
+</svg>
