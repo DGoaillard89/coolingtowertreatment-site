@@ -118,6 +118,22 @@
         "@type": "Answer",
         "text": "Usually, yes. We'll check what's fitted, confirm it's suitable and tell you honestly if anything needs replacing."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a conductivity sensor be calibrated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every one to three months, depending on risk. HSG274 Part 1 lists checking the central controller, calibrating the conductivity sensor and testing the bleed function at that frequency. A sensor that's drifted can bleed far too much water or far too little, so we check and calibrate it on our service visits and note it in your log book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should we do if a chemical drum runs empty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Swap it for the right replacement, check the pump has re-primed and is actually dosing, and write it in the log book with the date and time. If a biocide has been off for more than a day or two, tell us: we may want an extra dip slide or a shot dose to get control back quickly. Our article on dosing failures covers the warning signs."
+      }
     }
   ]
 }
@@ -143,6 +159,7 @@
         <a href="index.html#process" data-nav="process">How it works</a>
         <a href="faqs.html" data-nav="faqs">FAQs</a>
         <a href="blog/" data-nav="blog">Blog</a>
+        <a href="about.html" data-nav="about">About</a>
       </nav>
 
       <div class="header-cta">
@@ -216,6 +233,14 @@
           <details>
             <summary>Can you service dosing equipment another company installed?</summary>
             <p>Usually, yes. We'll check what's fitted, confirm it's suitable and tell you honestly if anything needs replacing.</p>
+          </details>
+          <details>
+            <summary>How often should a conductivity sensor be calibrated?</summary>
+            <p>Every one to three months, depending on risk. <a href='https://www.hse.gov.uk/pubns/books/hsg274.htm' rel='noopener'>HSG274 Part 1</a> lists checking the central controller, calibrating the conductivity sensor and testing the bleed function at that frequency. A sensor that's drifted can bleed far too much water or far too little, so we check and calibrate it on our service visits and note it in your log book.</p>
+          </details>
+          <details>
+            <summary>What should we do if a chemical drum runs empty?</summary>
+            <p>Swap it for the right replacement, check the pump has re-primed and is actually dosing, and write it in the log book with the date and time. If a biocide has been off for more than a day or two, tell us: we may want an extra dip slide or a shot dose to get control back quickly. Our article on <a href='blog/cooling-tower-dosing-failures.html'>dosing failures</a> covers the warning signs.</p>
           </details>
         </div>
       </div>
@@ -294,6 +319,7 @@
         <div>
           <h4>Company</h4>
           <ul>
+            <li><a href="about.html">About us</a></li>
             <li><a href="services.html">All services</a></li>
             <li><a href="sectors.html">Sectors we work in</a></li>
             <li><a href="index.html#process">How it works</a></li>
@@ -316,11 +342,17 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Cooling Tower Treatment. All rights reserved.</span>
-        <span>Nationwide · Specialising in London &amp; the Home Counties</span>
+        <span>Nationwide · Specialising in London &amp; the Home Counties<button class="cookie-settings" type="button" data-cookie-settings hidden>Cookie settings</button></span>
       </div>
     </div>
   </footer>
 
+  <div class="mobile-bar">
+    <a class="btn btn--line" href="tel:+442036336064">Call us</a>
+    <button class="btn btn--primary" type="button" data-open-enquiry>Get a quote</button>
+  </div>
+
+  <script src="consent.js" defer></script>
   <script src="script.js" defer></script>
   <script src="enquiry.js" defer></script>
 </body>

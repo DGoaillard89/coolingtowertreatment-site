@@ -59,10 +59,15 @@
   "knowsAbout": [
     "ACOP L8",
     "HSG274 Part 1",
+    "Notification of Cooling Towers and Evaporative Condensers Regulations 1992",
+    "COSHH",
     "Legionella control",
+    "Legionella sampling",
     "Cooling tower water treatment",
+    "Cooling tower cleaning and disinfection",
     "Evaporative condensers"
-  ]
+  ],
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Lightbox+111+Power+Road+London+W4+5PY"
 }
   </script>
   <script type="application/ld+json">
@@ -71,6 +76,54 @@
   "@type": "WebSite",
   "name": "Cooling Tower Treatment",
   "url": "https://coolingtowertreatment.co.uk/"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which laws and guidance apply to cooling towers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Four main pieces. The Health and Safety at Work etc. Act 1974 and COSHH set the general duty to control the risk from Legionella. ACOP L8 explains how to meet that duty, and HSG274 Part 1 gives the technical detail for evaporative cooling systems. On top of that, the Notification of Cooling Towers and Evaporative Condensers Regulations 1992 say the local authority must know your tower exists."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to notify the local authority about my cooling tower?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Under the Notification of Cooling Towers and Evaporative Condensers Regulations 1992, you must tell your local authority in writing about any wet cooling tower or evaporative condenser on your premises, and tell them again when one is taken out of use. Councils usually have a form for it. Our article on notifying the council walks through it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a cooling tower be cleaned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As often as inspection shows it's fouling. HSG274 Part 1 (2024) gives typical intervals of at least every three months for a tower in a dirty environment, at least twice a year for air conditioning comfort cooling, and at least every 12 months for a clean industrial system. Many sites clean six-monthly as a precaution. Your risk assessment sets the actual figure. More in our article on cleaning frequency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a cooling tower be tested for Legionella?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At least quarterly. HSG274 Part 1 says routine Legionella sampling should be done at least every three months, and more often in some situations: weekly at first when commissioning a system or starting a new treatment programme, after a positive result, or where the risk assessment calls for it because vulnerable people are nearby. See our monitoring and sampling service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Legionella count is a problem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anything above 100 cfu/litre needs action, and above 1,000 cfu/litre needs it immediately. Between 100 and 1,000, HSG274 Part 1 says to reassess the control programme, check treatment is working and resample. Above 1,000, or with persistent low-level positives, resample, shot-dose as a precaution, reassess the whole programme and resample again within 48 hours. A 'not detected' result doesn't mean there's no risk."
+      }
+    }
+  ]
 }
   </script>
 </head>
@@ -94,6 +147,7 @@
         <a href="index.html#process" data-nav="process">How it works</a>
         <a href="faqs.html" data-nav="faqs">FAQs</a>
         <a href="blog/" data-nav="blog">Blog</a>
+        <a href="about.html" data-nav="about">About</a>
       </nav>
 
       <div class="header-cta">
@@ -213,7 +267,7 @@
         </div>
         <div class="regs">
           <div class="reg"><span class="reg__code">HSE · L8</span><h3>ACOP L8</h3><p>The Approved Code of Practice for controlling <em>Legionella</em> in water systems. It sets out the dutyholder's responsibilities: assess the risk, have a written scheme, appoint a responsible person, monitor and keep records.</p></div>
-          <div class="reg"><span class="reg__code">HSE · HSG274 Pt 1</span><h3>HSG274 Part 1</h3><p>The technical guidance for evaporative cooling systems. It covers treatment, monitoring frequencies, action levels for TVC and <em>Legionella</em>, and cleaning and disinfection at least twice a year.</p></div>
+          <div class="reg"><span class="reg__code">HSE · HSG274 Pt 1</span><h3>HSG274 Part 1</h3><p>The technical guidance for evaporative cooling systems. It covers treatment, monitoring frequencies, action levels for TVC and <em>Legionella</em>, and how to decide how often to clean and disinfect. The second edition was published in 2024.</p></div>
           <div class="reg"><span class="reg__code">SI 1992/2225</span><h3>Notification Regulations 1992</h3><p>The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 require you to tell your local authority, in writing, about wet cooling towers and evaporative condensers on your premises.</p></div>
         </div>
       </div>
@@ -248,7 +302,7 @@
           <a class="service" href="cooling-tower-cleaning-disinfection.html">
             <span class="service__top"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#clean" /></svg><span class="service__num">04</span></span>
             <h3>Cleaning &amp; disinfection</h3>
-            <p>Six-monthly (or more frequent) clean and disinfection: pond, fill, drift eliminators, distribution and casing.</p>
+            <p>Scheduled clean and disinfection, set by inspection and risk: pond, fill, drift eliminators, distribution and casing.</p>
             <span class="link-arrow">Find out more</span>
           </a>
           <a class="service" href="cooling-tower-legionella-risk-assessment.html">
@@ -392,20 +446,24 @@
         </div>
         <div class="faq">
           <details>
-            <summary>Which regulations apply to cooling towers?</summary>
-            <p>The Health and Safety at Work etc. Act 1974 and COSHH set the general duties. ACOP L8 explains how to control <em>Legionella</em>, and HSG274 Part 1 gives the technical guidance for evaporative cooling systems. The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 require you to notify the local authority of wet cooling towers and evaporative condensers on your site.</p>
+            <summary>Which laws and guidance apply to cooling towers?</summary>
+            <p>Four main pieces. The <a href="https://www.legislation.gov.uk/ukpga/1974/37/contents" rel="noopener">Health and Safety at Work etc. Act 1974</a> and <a href="https://www.hse.gov.uk/coshh/" rel="noopener">COSHH</a> set the general duty to control the risk from <em>Legionella</em>. <a href="https://www.hse.gov.uk/pubns/books/l8.htm" rel="noopener">ACOP L8</a> explains how to meet that duty, and <a href="https://www.hse.gov.uk/pubns/books/hsg274.htm" rel="noopener">HSG274 Part 1</a> gives the technical detail for evaporative cooling systems. On top of that, the <a href="https://www.legislation.gov.uk/uksi/1992/2225/contents/made" rel="noopener">Notification of Cooling Towers and Evaporative Condensers Regulations 1992</a> say the local authority must know your tower exists.</p>
           </details>
           <details>
             <summary>Do I need to notify the local authority about my cooling tower?</summary>
-            <p>Yes, if you have a wet cooling tower or evaporative condenser, you need to notify the local authority in writing under the 1992 Notification Regulations, and tell them if a unit is taken out of use for good. Your council will have a form for it.</p>
+            <p>Yes. Under the <a href="https://www.legislation.gov.uk/uksi/1992/2225/contents/made" rel="noopener">Notification of Cooling Towers and Evaporative Condensers Regulations 1992</a>, you must tell your local authority in writing about any wet cooling tower or evaporative condenser on your premises, and tell them again when one is taken out of use. Councils usually have a form for it. Our article on <a href="blog/notifying-local-authority-cooling-tower.html">notifying the council</a> walks through it.</p>
           </details>
           <details>
             <summary>How often should a cooling tower be cleaned?</summary>
-            <p>HSG274 Part 1 says cooling towers should be cleaned and disinfected at least twice a year. Your risk assessment may call for more frequent cleaning.</p>
+            <p>As often as inspection shows it's fouling. <a href="https://www.hse.gov.uk/pubns/books/hsg274.htm" rel="noopener">HSG274 Part 1</a> (2024) gives typical intervals of at least every three months for a tower in a dirty environment, at least twice a year for air conditioning comfort cooling, and at least every 12 months for a clean industrial system. Many sites clean six-monthly as a precaution. Your risk assessment sets the actual figure. More in our article on <a href="blog/how-often-should-a-cooling-tower-be-cleaned.html">cleaning frequency</a>.</p>
           </details>
           <details>
-            <summary>How often should we test for Legionella?</summary>
-            <p>At least quarterly for cooling systems, plus more often in certain situations, such as at commissioning or after a positive result. Dip slides for general bacteria should be done at least weekly.</p>
+            <summary>How often should a cooling tower be tested for Legionella?</summary>
+            <p>At least quarterly. <a href="https://www.hse.gov.uk/pubns/books/hsg274.htm" rel="noopener">HSG274 Part 1</a> says routine <em>Legionella</em> sampling should be done at least every three months, and more often in some situations: weekly at first when commissioning a system or starting a new treatment programme, after a positive result, or where the risk assessment calls for it because vulnerable people are nearby. See our <a href="cooling-tower-monitoring-sampling.html">monitoring and sampling</a> service.</p>
+          </details>
+          <details>
+            <summary>What Legionella count is a problem?</summary>
+            <p>Anything above 100 cfu/litre needs action, and above 1,000 cfu/litre needs it immediately. Between 100 and 1,000, <a href="https://www.hse.gov.uk/pubns/books/hsg274.htm" rel="noopener">HSG274 Part 1</a> says to reassess the control programme, check treatment is working and resample. Above 1,000, or with persistent low-level positives, resample, shot-dose as a precaution, reassess the whole programme and resample again within 48 hours. A 'not detected' result doesn't mean there's no risk.</p>
           </details>
         </div>
       </div>
@@ -474,6 +532,7 @@
         <div>
           <h4>Company</h4>
           <ul>
+            <li><a href="about.html">About us</a></li>
             <li><a href="services.html">All services</a></li>
             <li><a href="sectors.html">Sectors we work in</a></li>
             <li><a href="index.html#process">How it works</a></li>
@@ -496,11 +555,17 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Cooling Tower Treatment. All rights reserved.</span>
-        <span>Nationwide · Specialising in London &amp; the Home Counties</span>
+        <span>Nationwide · Specialising in London &amp; the Home Counties<button class="cookie-settings" type="button" data-cookie-settings hidden>Cookie settings</button></span>
       </div>
     </div>
   </footer>
 
+  <div class="mobile-bar">
+    <a class="btn btn--line" href="tel:+442036336064">Call us</a>
+    <button class="btn btn--primary" type="button" data-open-enquiry>Get a quote</button>
+  </div>
+
+  <script src="consent.js" defer></script>
   <script src="script.js" defer></script>
   <script src="enquiry.js" defer></script>
 </body>

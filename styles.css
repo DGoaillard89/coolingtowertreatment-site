@@ -802,3 +802,54 @@ body.modal-open { overflow: hidden; }
 .sector-grid .link-arrow { margin-top: 8px; }
 .section-head .link-arrow { white-space: nowrap; }
 .empty-note .link-arrow { vertical-align: baseline; }
+
+/* ---------------------------------------------------------------------------
+   FAQ page groups, jump links, sources
+   --------------------------------------------------------------------------- */
+.faq-reviewed { margin: 0 0 18px; font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.03em; color: var(--muted); }
+.faq-jump ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 40px; padding: 0; list-style: none; }
+.faq-jump a { display: inline-block; padding: 7px 12px; border: 1px solid var(--line); border-radius: var(--radius); font-family: var(--mono); font-size: 0.8rem; color: var(--text); text-decoration: none; }
+.faq-jump a:hover, .faq-jump a:focus-visible { border-color: var(--aqua-ink); color: var(--aqua-ink); }
+.faq-group { margin-bottom: 48px; scroll-margin-top: 96px; }
+.faq-group > h2 { margin-bottom: 14px; font-size: clamp(1.3rem, 2.4vw, 1.7rem); }
+.faq a { color: var(--aqua-ink); }
+.faq-sources { max-width: 900px; margin: 8px 0 40px; padding: 28px; background: var(--paper); border-left: 3px solid var(--aqua); }
+.faq-sources h2 { font-size: 1.25rem; margin-bottom: 8px; }
+.faq-sources p { color: var(--muted); }
+.faq-sources ul { margin: 12px 0 0; padding-left: 18px; }
+.faq-sources li { margin: 6px 0; }
+.faq-sources a { color: var(--aqua-ink); }
+
+/* ---------------------------------------------------------------------------
+   Cookie banner (only shown once a GTM ID is set in consent.js)
+   --------------------------------------------------------------------------- */
+.cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 60; max-width: 560px; padding: 22px 22px 20px; background: var(--ink); color: #d7e3ee; border: 1px solid var(--line-dark); border-top: 3px solid var(--aqua); border-radius: var(--radius); box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.55); }
+.cookie-banner[hidden], .cookie-banner [hidden] { display: none !important; }
+.cookie-banner h2 { margin: 0 0 6px; color: var(--white); font-size: 1.05rem; }
+.cookie-banner p { margin: 0; font-size: 0.92rem; }
+.cookie-banner a { color: var(--aqua); }
+.cookie-banner__choose { display: grid; gap: 10px; margin-top: 14px; }
+.cookie-banner__choose[hidden] { display: none; }
+.cookie-toggle { display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; cursor: pointer; }
+.cookie-toggle input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--aqua); }
+.cookie-toggle b { display: block; color: var(--white); }
+.cookie-banner__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.cookie-banner__actions .btn { padding-block: 10px; }
+.cookie-banner__actions .btn--primary::after { display: none; }
+.cookie-settings { padding: 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; text-decoration: underline; cursor: pointer; }
+.cookie-settings[hidden] { display: none; }
+
+/* ---------------------------------------------------------------------------
+   Mobile call / quote bar
+   --------------------------------------------------------------------------- */
+.mobile-bar { display: none; }
+@media (max-width: 640px) {
+  .mobile-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: var(--ink); border-top: 1px solid var(--line-dark); }
+  .mobile-bar .btn { justify-content: center; padding-block: 12px; }
+  .mobile-bar .btn--primary::after { display: none; }
+  body { padding-bottom: 72px; }
+  .cookie-banner { left: 10px; right: 10px; bottom: 82px; padding: 18px; }
+  .cookie-banner__actions .btn { flex: 1 1 auto; }
+  .faq-sources { padding: 20px; }
+}
+.cookie-settings::before { content: "·"; display: inline-block; margin: 0 0.6em; text-decoration: none; }

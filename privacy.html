@@ -68,6 +68,7 @@
         <a href="index.html#process" data-nav="process">How it works</a>
         <a href="faqs.html" data-nav="faqs">FAQs</a>
         <a href="blog/" data-nav="blog">Blog</a>
+        <a href="about.html" data-nav="about">About</a>
       </nav>
 
       <div class="header-cta">
@@ -110,8 +111,10 @@
           <p>Enquiries are passed securely through Cloudflare and stored in our customer records system, Airtable. These providers process data on our behalf under their own data protection terms.</p>
           <h3>How long we keep it</h3>
           <p>If you don't become a customer, we delete enquiry details within 24 months. Customer records are kept for as long as we need them to meet our legal, insurance and compliance obligations.</p>
-          <h3>Cookies</h3>
-          <p>This website doesn't use advertising or tracking cookies. Fonts are loaded from Google Fonts, which means your browser connects to Google's servers when you view a page.</p>
+          <h3 id="cookies">Cookies and similar technologies</h3>
+          <p>We only use analytics and advertising cookies if you say yes. When they're switched on, we use Google Tag Manager to load Google Analytics, which helps us see how many people visit and which pages are useful, and Google Ads, which lets us measure whether our adverts lead to enquiries and show our ads to people who've visited this site before. If you click one of our Google adverts, the ad click reference and campaign details from the web address are added to your enquiry so we can tell which adverts work.</p>
+          <p>If you say no, none of these are loaded and no analytics or advertising cookies are set. Your choice itself is saved in your browser's local storage so we don't ask again on every page. You can change your mind at any time using the <button class="link-arrow" type="button" data-cookie-settings>Cookie settings</button> link at the bottom of every page.</p>
+          <p>Google's own explanation of how it uses information from sites like ours is at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Fonts are loaded from Google Fonts, which means your browser connects to Google's servers when you view a page.</p>
           <h3>Your rights</h3>
           <p>You can ask to see, correct or delete the information we hold about you, or object to how we use it. Call us on 020 3633 6064 or write to us at the address above. If you're unhappy with how we've handled your data, you can complain to the Information Commissioner's Office at ico.org.uk.</p>
         </div>
@@ -146,6 +149,7 @@
         <div>
           <h4>Company</h4>
           <ul>
+            <li><a href="about.html">About us</a></li>
             <li><a href="services.html">All services</a></li>
             <li><a href="sectors.html">Sectors we work in</a></li>
             <li><a href="index.html#process">How it works</a></li>
@@ -168,11 +172,17 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Cooling Tower Treatment. All rights reserved.</span>
-        <span>Nationwide · Specialising in London &amp; the Home Counties</span>
+        <span>Nationwide · Specialising in London &amp; the Home Counties<button class="cookie-settings" type="button" data-cookie-settings hidden>Cookie settings</button></span>
       </div>
     </div>
   </footer>
 
+  <div class="mobile-bar">
+    <a class="btn btn--line" href="tel:+442036336064">Call us</a>
+    <button class="btn btn--primary" type="button" data-open-enquiry>Get a quote</button>
+  </div>
+
+  <script src="consent.js" defer></script>
   <script src="script.js" defer></script>
   <script src="enquiry.js" defer></script>
 </body>

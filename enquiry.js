@@ -93,6 +93,7 @@ const ROOT = document.body.dataset.root || "";
       form.elements.message.value = `I'm interested in: ${topic}.\n\n`;
     }
     dialog.showModal();
+    window.siteTrack?.event("enquiry_open", { topic: topic || "" });
     document.body.classList.add("modal-open");
     form.elements.name.focus();
   }
@@ -166,6 +167,8 @@ const ROOT = document.body.dataset.root || "";
     );
     data.postcode = formatPostcode(data.postcode);
     data.enquiryType = ENQUIRY_TYPE;
+    // Ad click / UTM details, if the visitor arrived from a campaign (see consent.js)
+    data.message += window.siteTrack?.attributionNote() || "";
 
     submit.disabled = true;
     submit.classList.add("is-sending");
@@ -176,6 +179,7 @@ const ROOT = document.body.dataset.root || "";
         body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      window.siteTrack?.event("generate_lead", { enquiry_type: ENQUIRY_TYPE, form_id: "enquiry", page_path: location.pathname });
       form.reset();
       form.hidden = true;
       done.hidden = false;

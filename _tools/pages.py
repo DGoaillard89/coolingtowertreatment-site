@@ -1,6 +1,7 @@
 """Homepage, services hub, sectors, FAQs, privacy and 404."""
 import build as B
 from services import SERVICES
+from faqs import FAQ_GROUPS, GENERAL_FAQS, HOME_FAQS, SOURCES
 
 esc = B.esc
 TEL, PHONE, BRAND = B.TEL, B.PHONE, B.BRAND
@@ -85,22 +86,6 @@ SECTORS = [
      "Hotels, venues and leisure buildings tend to run cooling hardest in summer, when the most people are around. We plan start-ups, cleans and sampling around the season and your event calendar."),
 ]
 
-GENERAL_FAQS = [
-    ("What does a cooling tower water treatment contractor actually do?", "We design and run the treatment programme, supply and maintain the dosing equipment, carry out monitoring and sampling, clean and disinfect the system, and keep the records up to date. In short, we help you meet your duties under ACOP L8 and HSG274 Part 1."),
-    ("Which regulations apply to cooling towers?", "The Health and Safety at Work etc. Act 1974 and COSHH set the general duties. ACOP L8 explains how to control <em>Legionella</em>, and HSG274 Part 1 gives the technical guidance for evaporative cooling systems. The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 require you to notify the local authority of wet cooling towers and evaporative condensers on your site."),
-    ("Do I need to notify the local authority about my cooling tower?", "Yes, if you have a wet cooling tower or evaporative condenser, you need to notify the local authority in writing under the 1992 Notification Regulations, and tell them if a unit is taken out of use for good. Your council will have a form for it."),
-    ("How often should a cooling tower be cleaned?", "HSG274 Part 1 says cooling towers should be cleaned and disinfected at least twice a year. Your risk assessment may call for more frequent cleaning."),
-    ("How often should we test for Legionella?", "At least quarterly for cooling systems, plus more often in certain situations, such as at commissioning or after a positive result. Dip slides for general bacteria should be done at least weekly."),
-    ("What happens if we get a positive Legionella result?", "You resample, review your controls and risk assessment and, depending on the count, may need to disinfect the system. We'll help you work through it and record every step. See our <a href=\"positive-legionella-result-response.html\">positive result response</a> page."),
-    ("Do you cover evaporative condensers as well as cooling towers?", "Yes. Evaporative condensers carry a similar risk and need the same approach: treatment, monitoring, cleaning, risk assessment and records."),
-    ("Where do you work?", "Nationwide. We specialise in London and the Home Counties and travel further afield for clients with sites across the UK."),
-    ("Where are Legionella samples analysed?", "At a UKAS-accredited laboratory. We take the samples, send them off and explain the results when they come back."),
-    ("Can you work alongside our in-house maintenance team?", "Yes. Lots of sites split the work, with their own team doing the weekly checks and us handling the programme, chemistry, lab samples, cleaning and records. We'll train your team if needed."),
-    ("Can you take over from our current water treatment company?", "Yes. We start with a review of your programme, dosing equipment and log book so nothing gets missed, then agree a handover date."),
-    ("How much does cooling tower water treatment cost?", "It depends on the size and number of systems, how often we visit and what's included. We'll look at your site and give you a clear, itemised quote. No obligation."),
-]
-
-
 def services_grid(root):
     cards = "\n".join(
         f"""          <a class="service" href="{root}{s["slug"]}.html">
@@ -116,7 +101,7 @@ def services_grid(root):
 
 REGS = """        <div class="regs">
           <div class="reg"><span class="reg__code">HSE · L8</span><h3>ACOP L8</h3><p>The Approved Code of Practice for controlling <em>Legionella</em> in water systems. It sets out the dutyholder's responsibilities: assess the risk, have a written scheme, appoint a responsible person, monitor and keep records.</p></div>
-          <div class="reg"><span class="reg__code">HSE · HSG274 Pt 1</span><h3>HSG274 Part 1</h3><p>The technical guidance for evaporative cooling systems. It covers treatment, monitoring frequencies, action levels for TVC and <em>Legionella</em>, and cleaning and disinfection at least twice a year.</p></div>
+          <div class="reg"><span class="reg__code">HSE · HSG274 Pt 1</span><h3>HSG274 Part 1</h3><p>The technical guidance for evaporative cooling systems. It covers treatment, monitoring frequencies, action levels for TVC and <em>Legionella</em>, and how to decide how often to clean and disinfect. The second edition was published in 2024.</p></div>
           <div class="reg"><span class="reg__code">SI 1992/2225</span><h3>Notification Regulations 1992</h3><p>The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 require you to tell your local authority, in writing, about wet cooling towers and evaporative condensers on your premises.</p></div>
         </div>"""
 
@@ -127,7 +112,7 @@ def build_home():
     sectors = "\n".join(
         f"""          <li class="sector">{B.icon(i, root)}<div><h3>{n}</h3><p>{short}</p></div></li>""" for i, n, short, _ in SECTORS[:6]
     )
-    home_faqs = GENERAL_FAQS[1:5]
+    home_faqs = HOME_FAQS
     posts_html = ""
     if latest:
         posts_html = f"""
@@ -310,7 +295,7 @@ def build_home():
         "",
         main,
         "home",
-        [B.business_ld(), {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": B.DOMAIN + "/"}],
+        [B.business_ld(), {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": B.DOMAIN + "/"}, B.faq_ld(home_faqs)],
         root,
     )
 
@@ -391,18 +376,104 @@ def build_sectors():
 def build_faqs():
     root = ""
     crumbs = [("Home", ""), ("FAQs", None)]
-    main = f"""{B.page_hero(crumbs, "FAQs", "Cooling tower water treatment FAQs", "Straight answers to the questions facilities managers and engineers ask us most about cooling towers, evaporative condensers and Legionella control.", root, "assessment", "FAQ")}
+    jump = "\n".join(f'          <li><a href="#{gid}">{esc(h)}</a></li>' for gid, h, _ in FAQ_GROUPS)
+    groups = "\n".join(
+        f"""        <section class="faq-group" id="{gid}" aria-labelledby="{gid}-h">
+          <h2 id="{gid}-h">{esc(h)}</h2>
+{B.faq_block(items)}
+        </section>"""
+        for gid, h, items in FAQ_GROUPS
+    )
+    sources = "\n".join(f'            <li><a href="{u}" rel="noopener">{esc(t)}</a></li>' for u, t in SOURCES)
+    main = f"""{B.page_hero(crumbs, "FAQs", "Cooling tower water treatment FAQs", "Straight answers to the questions facilities managers and engineers ask us most about cooling towers, evaporative condensers and Legionella control, with links to the HSE guidance behind them.", root, "assessment", "FAQ")}
 
     <section class="section section--white">
-      <div class="wrap">
-{B.faq_block(GENERAL_FAQS)}
+      <div class="wrap faq-page">
+        <p class="faq-reviewed">Last reviewed: October 2026, against ACOP L8 (2013) and HSG274 Part 1 (second edition, 2024).</p>
+        <nav class="faq-jump" aria-label="FAQ topics">
+          <ul>
+{jump}
+          </ul>
+        </nav>
+{groups}
+        <section class="faq-sources" aria-labelledby="sources-h">
+          <h2 id="sources-h">Sources and further reading</h2>
+          <p>Our answers are a plain-English summary. The official documents are free to read online:</p>
+          <ul>
+{sources}
+          </ul>
+        </section>
         <p class="empty-note">Can't see your question? Call us on <a href="{TEL}">{PHONE}</a> or <button class="link-arrow" type="button" data-open-enquiry="Question">send us a message</button></p>
       </div>
     </section>
 
 {B.cta_band(root)}"""
     lds = [B.breadcrumb_ld([("Home", ""), ("FAQs", "faqs.html")]), B.faq_ld(GENERAL_FAQS)]
-    B.page("faqs.html", "Cooling Tower FAQs | Legionella, Cleaning & Compliance", "Answers on cooling tower Legionella testing, cleaning frequency, notification, positive results and what ACOP L8 and HSG274 Part 1 expect of you.", "faqs.html", main, "faqs", lds, root)
+    B.page("faqs.html", "Cooling Tower FAQs | Legionella, Cleaning & Compliance", "Cooling tower FAQs: Legionella testing, cleaning frequency, notification, action levels and records, with links to ACOP L8 and HSG274 Part 1.", "faqs.html", main, "faqs", lds, root)
+
+
+def build_about():
+    root = ""
+    crumbs = [("Home", ""), ("About us", None)]
+    main = f"""{B.page_hero(crumbs, "About", "About Cooling Tower Treatment", "A Chiswick-based team that looks after the water in cooling towers and evaporative condensers, and explains what it's doing in plain English.", root, "tower", "ABOUT", "General enquiry")}
+
+    <section class="section section--white">
+      <div class="wrap split">
+        <div>
+          <span class="eyebrow">Who we are</span>
+          <h2>Specialists in one kind of plant.</h2>
+          <p class="lede">We do one thing: keep evaporative cooling systems clean, treated and safe from <em>Legionella</em>, with records that stand up to an inspection.</p>
+          <p class="lede">That covers treatment programmes, chemical dosing, monitoring and sampling, cleaning and disinfection, risk assessments, log books, and help when a result comes back high. You can hand us the lot or just the parts your own team doesn't cover.</p>
+          <p class="lede">Our office is at The Lightbox in Chiswick, West London. Most of our work is in London and the Home Counties, and we look after sites across the rest of the UK too.</p>
+        </div>
+        <div>
+          <ul class="checklist">
+            <li><div><h3>Straight answers</h3><p>If your current setup is fine, we'll tell you. If it isn't, we'll explain why and what it'll take to fix.</p></div></li>
+            <li><div><h3>Records you can rely on</h3><p>Every visit, sample, clean and corrective action is written up for your log book.</p></div></li>
+            <li><div><h3>Accredited lab analysis</h3><p><em>Legionella</em> samples go to a UKAS-accredited laboratory.</p></div></li>
+            <li><div><h3>Planned around your site</h3><p>Cleans and start-ups are planned with you, so cooling stays available where it has to.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">The guidance we work to</span>
+          <h2>What our work is based on</h2>
+          <p>Everything we do is built around the HSE's Approved Code of Practice and technical guidance. You can read them yourself on the HSE website; our <a class="link-arrow" href="faqs.html">FAQs</a> explain the key points.</p>
+        </div>
+{REGS}
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="wrap local">
+        <div>
+          <span class="eyebrow">Get in touch</span>
+          <h2>Talk to us about your system.</h2>
+          <p>Call us, or send a few details through the quote form and we'll come back to you. Tell us what kind of system you have, roughly how big it is and what you need help with.</p>
+          <p><a class="link-arrow" href="services.html">See all our services</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>{BRAND}</h3>
+          <dl>
+            <div><dt>Phone</dt><dd><a class="big-phone" href="{TEL}">{PHONE}</a></dd></div>
+            <div><dt>Office</dt><dd><address>The Lightbox G16, 111 Power Road<br />Chiswick, London W4 5PY</address></dd></div>
+            <div><dt>Coverage</dt><dd>Nationwide, specialising in London &amp; the Home Counties</dd></div>
+          </dl>
+          <button class="btn btn--primary" type="button" data-open-enquiry>Request a quote</button>
+        </div>
+      </div>
+    </section>
+
+{B.cta_band(root)}"""
+    lds = [
+        B.breadcrumb_ld([("Home", ""), ("About us", "about.html")]),
+        {"@context": "https://schema.org", "@type": "AboutPage", "name": "About Cooling Tower Treatment", "url": B.url_for("about.html"), "about": {"@id": B.DOMAIN + "/#business"}},
+    ]
+    B.page("about.html", "About Us | Cooling Tower Treatment, Chiswick, London", "Who we are: cooling tower and evaporative condenser water treatment specialists based in Chiswick, West London, working nationwide to ACOP L8.", "about.html", main, "about", lds, root)
 
 
 def build_privacy():
@@ -423,8 +494,10 @@ def build_privacy():
           <p>Enquiries are passed securely through Cloudflare and stored in our customer records system, Airtable. These providers process data on our behalf under their own data protection terms.</p>
           <h3>How long we keep it</h3>
           <p>If you don't become a customer, we delete enquiry details within 24 months. Customer records are kept for as long as we need them to meet our legal, insurance and compliance obligations.</p>
-          <h3>Cookies</h3>
-          <p>This website doesn't use advertising or tracking cookies. Fonts are loaded from Google Fonts, which means your browser connects to Google's servers when you view a page.</p>
+          <h3 id="cookies">Cookies and similar technologies</h3>
+          <p>We only use analytics and advertising cookies if you say yes. When they're switched on, we use Google Tag Manager to load Google Analytics, which helps us see how many people visit and which pages are useful, and Google Ads, which lets us measure whether our adverts lead to enquiries and show our ads to people who've visited this site before. If you click one of our Google adverts, the ad click reference and campaign details from the web address are added to your enquiry so we can tell which adverts work.</p>
+          <p>If you say no, none of these are loaded and no analytics or advertising cookies are set. Your choice itself is saved in your browser's local storage so we don't ask again on every page. You can change your mind at any time using the <button class="link-arrow" type="button" data-cookie-settings>Cookie settings</button> link at the bottom of every page.</p>
+          <p>Google's own explanation of how it uses information from sites like ours is at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Fonts are loaded from Google Fonts, which means your browser connects to Google's servers when you view a page.</p>
           <h3>Your rights</h3>
           <p>You can ask to see, correct or delete the information we hold about you, or object to how we use it. Call us on {PHONE} or write to us at the address above. If you're unhappy with how we've handled your data, you can complain to the Information Commissioner's Office at ico.org.uk.</p>
         </div>

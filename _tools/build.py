@@ -87,7 +87,8 @@ def business_ld():
         "areaServed": AREAS,
         "priceRange": "Quoted per site",
         "description": "Cooling tower and evaporative condenser water treatment: treatment programmes, chemical dosing, monitoring and Legionella sampling, cleaning and disinfection, risk assessments and compliance records.",
-        "knowsAbout": ["ACOP L8", "HSG274 Part 1", "Legionella control", "Cooling tower water treatment", "Evaporative condensers"],
+        "knowsAbout": ["ACOP L8", "HSG274 Part 1", "Notification of Cooling Towers and Evaporative Condensers Regulations 1992", "COSHH", "Legionella control", "Legionella sampling", "Cooling tower water treatment", "Cooling tower cleaning and disinfection", "Evaporative condensers"],
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Lightbox+111+Power+Road+London+W4+5PY",
     }
 
 
@@ -165,6 +166,7 @@ NAV = [
     ("process", "How it works", "index.html#process"),
     ("faqs", "FAQs", "faqs.html"),
     ("blog", "Blog", "blog/"),
+    ("about", "About", "about.html"),
 ]
 
 
@@ -220,6 +222,7 @@ def footer(root):
         <div>
           <h4>Company</h4>
           <ul>
+            <li><a href="{root}about.html">About us</a></li>
             <li><a href="{root}services.html">All services</a></li>
             <li><a href="{root}sectors.html">Sectors we work in</a></li>
             <li><a href="{root}index.html#process">How it works</a></li>
@@ -242,7 +245,7 @@ def footer(root):
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>{datetime.date.today().year}</span> {BRAND}. All rights reserved.</span>
-        <span>Nationwide · Specialising in London &amp; the Home Counties</span>
+        <span>Nationwide · Specialising in London &amp; the Home Counties<button class="cookie-settings" type="button" data-cookie-settings hidden>Cookie settings</button></span>
       </div>
     </div>
   </footer>"""
@@ -259,6 +262,12 @@ def page(out_path, title, desc, canonical_path, main, page_key, lds, root="", og
 
 {footer(root)}
 
+  <div class="mobile-bar">
+    <a class="btn btn--line" href="{TEL}">Call us</a>
+    <button class="btn btn--primary" type="button" data-open-enquiry>Get a quote</button>
+  </div>
+
+  <script src="{root}consent.js" defer></script>
   <script src="{root}script.js" defer></script>
   <script src="{root}enquiry.js" defer></script>
 </body>
@@ -537,7 +546,7 @@ def build_sitemap(entries):
 
 
 def main():
-    from pages import build_home, build_services_hub, build_sectors, build_faqs, build_privacy, build_404
+    from pages import build_home, build_services_hub, build_sectors, build_faqs, build_about, build_privacy, build_404
 
     entries = [("", TODAY)]
     build_home()
@@ -550,6 +559,8 @@ def main():
     entries.append(("sectors.html", TODAY))
     build_faqs()
     entries.append(("faqs.html", TODAY))
+    build_about()
+    entries.append(("about.html", TODAY))
     build_privacy()
     entries.append(("privacy.html", TODAY))
     build_404()

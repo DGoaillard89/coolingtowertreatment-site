@@ -13,36 +13,43 @@ POSTS = [
         "title": "How often should a cooling tower be cleaned and disinfected?",
         "seo_title": "How Often Should a Cooling Tower Be Cleaned? | HSG274",
         "date": "2023-11-14",
-        "desc": "HSG274 Part 1 says at least twice a year, but some towers need more. What the guidance expects, how a clean works and the signs yours is overdue.",
+        "desc": "How often HSG274 Part 1 (2024) expects cooling towers to be cleaned, why it depends on fouling, how a proper clean works and the signs yours is overdue.",
+        "modified": "2026-10-20",
         "tag": "Cleaning",
         "topic": "Cooling tower cleaning and disinfection",
         "services": ["cooling-tower-cleaning-disinfection", "cooling-tower-monitoring-sampling", "cooling-tower-shutdown-start-up-commissioning"],
         "body": """
-          <p>It's one of the first questions we get asked when we take on a new site, usually followed by "and when was ours last done?" The short answer is <strong>at least twice a year</strong>. The longer answer is that some towers need it more often, and a clean done badly can do more harm than good.</p>
+          <p>It's one of the first questions we get asked when we take on a new site, usually followed by "and when was ours last done?" The short answer is <strong>as often as your tower fouls</strong>, which for a typical office comfort-cooling tower means at least twice a year. The longer answer is that some towers need it more often, and a clean done badly can do more harm than good.</p>
           <p>November's a good time to think about it. The leaves are down, the summer's heat load is behind you, and plenty of towers are sitting on six months' worth of whatever the air has thrown at them. Here's what the guidance says, what a proper clean involves and how to tell if yours is overdue.</p>
 
           <h2>What the guidance actually says</h2>
-          <p>The technical guidance for evaporative cooling is HSG274 Part 1, which sits alongside the Approved Code of Practice, ACOP L8. HSG274 Part 1 says cooling towers should be cleaned and disinfected <strong>at least twice a year</strong>. That's a minimum, not a target.</p>
+          <p>The technical guidance for evaporative cooling is HSG274 Part 1, which sits alongside the Approved Code of Practice, ACOP L8. HSG274 Part 1 was updated in 2024. Rather than one fixed interval, it says a system should be cleaned whenever it's known or suspected to be fouled, with the frequency worked out from inspections, your water treatment history and the environment the tower sits in. As a typical guide, not a rule, it gives:</p>
+          <ul>
+            <li><strong>At least every three months</strong> for a tower in a dirty environment, such as one prone to process or airborne contamination</li>
+            <li><strong>At least twice a year</strong> for an air conditioning comfort cooling system</li>
+            <li><strong>At least every 12 months</strong> for a \"clean\" industrial application</li>
+          </ul>
+          <p>It also says to inspect, disinfect and, if needed, clean before a system is first commissioned, after a shutdown of a month or longer, and after any physical alteration. Plenty of sites still clean six-monthly as a precaution, and that's a sensible default. You can read the guidance yourself in <a href=\"https://www.hse.gov.uk/pubns/books/hsg274.htm\" rel=\"noopener\">HSG274 Part 1 on the HSE website</a>.</p>
           <p>Your own frequency should come from your <a href="{R}cooling-tower-legionella-risk-assessment.html">Legionella risk assessment</a> and be written into your written scheme. If the assessment says your tower needs cleaning every four months, that's what you're expected to do, and an inspector will check your records against it.</p>
-          <p>For evaporative condensers, the frequency should also be set by the risk assessment, taking account of the guidance. They're often smaller and more enclosed than open towers, but they still collect sludge and biofilm, and they still produce aerosol.</p>
+          <p>Evaporative condensers follow the same logic. They're often smaller and more enclosed than open towers, but they still collect sludge and biofilm.</p>
 
           <h2>Why chemistry alone isn't enough</h2>
           <p>A good treatment programme does a lot of heavy lifting. Inhibitors keep scale in solution, dispersants stop dirt settling, and biocides keep the bacterial count down. But no chemical programme removes what has already settled out.</p>
-          <p>Cooling towers are very good air scrubbers. Over a few months they pull in dust, pollen, insects, leaves and whatever's blowing off the building site next door. That ends up as sludge in the pond and deposits on the fill. Biofilm builds up in the corners where water moves slowly. All of it soaks up biocide and gives bacteria, including <em>Legionella</em>, somewhere to hide. Physical cleaning is the only way to get it out.</p>
+          <p>Cooling towers are very good air scrubbers. They pull in dust, pollen, insects and leaves, which end up as sludge in the pond and deposits on the fill. Biofilm builds up in the corners where water moves slowly. All of it soaks up biocide and gives bacteria, including <em>Legionella</em>, somewhere to hide. Physical cleaning is the only way to get it out.</p>
 
           <h2>What a proper clean and disinfection involves</h2>
           <p>HSG274 Part 1 describes a sequence, and the order matters:</p>
           <ol>
             <li><strong>Pre-clean disinfection.</strong> Before anyone opens the tower up, the water is disinfected, usually by chlorinating the system and holding a set level for a set contact time. This cuts the bacterial load so the cleaning itself doesn't spray contaminated water around.</li>
             <li><strong>Drain down and physical clean.</strong> The pond and sump are emptied and cleaned out. Strainers, distribution troughs or spray nozzles, fill and drift eliminators are cleaned, and debris is removed rather than washed into the drain.</li>
-            <li><strong>Inspection.</strong> While it's open, it's the best chance you'll get to look at the condition of the fill, eliminators, casing and fan. Damaged eliminators, for example, let more drift escape.</li>
+            <li><strong>Inspection.</strong> While it's open, check the fill, eliminators, casing and fan. Damaged eliminators let more drift escape.</li>
             <li><strong>Post-clean disinfection.</strong> The system is refilled and disinfected again, then flushed and brought back to normal treatment levels before going back into routine service.</li>
             <li><strong>Records.</strong> What was done, chemical levels and contact times, and what was found all go in the log book.</li>
           </ol>
-          <p>A quick hose-down of the pond doesn't count. Neither does skipping the pre-clean disinfection to save a few hours. If the person doing the work isn't following that sequence, it's worth asking why.</p>
+          <p>A quick hose-down of the pond doesn't count, and neither does skipping the pre-clean disinfection to save a few hours.</p>
 
-          <h2>When twice a year isn't enough</h2>
-          <p>Plenty of towers need cleaning more often than the minimum. Your risk assessment should consider things like:</p>
+          <h2>When six-monthly isn't enough</h2>
+          <p>Plenty of towers need cleaning more often than that. Your risk assessment should consider things like:</p>
           <ul>
             <li><strong>Dirty surroundings.</strong> Nearby construction, demolition, busy roads, trees or industrial processes all increase the amount of debris the tower pulls in.</li>
             <li><strong>Process contamination.</strong> Food, oil or other process leaks into the cooling water feed bacteria and foul the system fast.</li>
@@ -59,9 +66,9 @@ POSTS = [
             <li>White or brown scale on wetted surfaces</li>
             <li>Dip slide results drifting upwards over several weeks</li>
             <li>Biocide or inhibitor reserves dropping faster than usual</li>
-            <li>A cleaning certificate in the log book that's more than six months old</li>
+            <li>A cleaning certificate in the log book that's older than the interval in your written scheme</li>
           </ul>
-          <p>Any one of these is worth a conversation with whoever looks after your treatment. A few together usually means a clean is due now, not at the next scheduled date.</p>
+          <p>A few of these together usually means a clean is due now, not at the next scheduled date.</p>
 
           <div class="callout">
             <span class="callout__k">A typical scenario</span>
@@ -69,7 +76,7 @@ POSTS = [
           </div>
 
           <h2>Planning a clean on a site that can't switch off</h2>
-          <p>The most common reason cleans slip is that the cooling can't easily be turned off. Data centres, hospitals and process sites all have this problem. It's solvable, though:</p>
+          <p>Cleans most often slip because the cooling can't easily be turned off. It's solvable, though:</p>
           <ul>
             <li>Multi-cell towers can often be cleaned one cell at a time with the others carrying the load.</li>
             <li>Sites with N+1 redundancy can take one tower out while the standby runs.</li>
@@ -78,7 +85,7 @@ POSTS = [
           <p>It just needs planning early, rather than squeezing it in when the certificate's already out of date. Our <a href="{R}cooling-tower-cleaning-disinfection.html">cleaning and disinfection</a> page explains how we approach this, and if a tower has been sitting idle, take a look at our notes on <a href="{R}cooling-tower-shutdown-start-up-commissioning.html">shutdown and start-up</a> too.</p>
 
           <h2>The bottom line</h2>
-          <p>At least twice a year is the floor. Your risk assessment sets the real frequency, your <a href="{R}cooling-tower-monitoring-sampling.html">monitoring results</a> tell you whether it's working, and your records prove it was done. If you can't remember when your tower was last cleaned, or you're not sure the job's being done properly, that's the moment to get someone to take a look.</p>
+          <p>For most comfort-cooling towers, twice a year is the floor. Your risk assessment and inspections set the real frequency, your <a href="{R}cooling-tower-monitoring-sampling.html">monitoring results</a> tell you whether it's working, and your records prove it was done. If you can't remember when your tower was last cleaned, that's the moment to get someone to take a look.</p>
 """,
     },
     # ------------------------------------------------------------------ 2
@@ -365,6 +372,7 @@ POSTS = [
     # ------------------------------------------------------------------ 6
     {
         "slug": "cooling-tower-log-book",
+        "modified": "2026-10-20",
         "title": "What should be in a cooling tower log book?",
         "seo_title": "What Should Be in a Cooling Tower Log Book? | ACOP L8",
         "date": "2025-02-18",
@@ -413,7 +421,7 @@ POSTS = [
           <p>Results are much more useful with the action levels printed next to them, so whoever fills in the sheet can see straight away if something's out of range.</p>
 
           <h3>6. Cleaning and disinfection</h3>
-          <p>Certificates or reports for every clean and disinfection, showing what was done, chemical levels and contact times, and what was found. HSG274 Part 1 expects cooling towers to be cleaned and disinfected at least twice a year, so an inspector will look for at least two of these each year.</p>
+          <p>Certificates or reports for every clean and disinfection, showing what was done, chemical levels and contact times, and what was found. The interval should match your written scheme, which in turn should reflect how quickly your system fouls. For a typical comfort-cooling tower that means at least two a year.</p>
 
           <h3>7. Corrective actions</h3>
           <p>Every out-of-range result or fault, what was done about it, by whom, and when it was closed out. This section often tells an inspector more about your site than anything else.</p>
@@ -606,6 +614,7 @@ POSTS = [
     # ------------------------------------------------------------------ 9
     {
         "slug": "cooling-tower-vs-evaporative-condenser",
+        "modified": "2026-10-20",
         "title": "Cooling tower or evaporative condenser? What it means for Legionella control",
         "seo_title": "Cooling Tower vs Evaporative Condenser: Legionella Control",
         "date": "2025-11-11",
@@ -640,7 +649,7 @@ POSTS = [
             <li><strong>Smaller water volume.</strong> Evaporative condensers often hold much less water than a cooling tower system. Chemistry can change quickly, so a dosing fault or a stuck bleed shows up faster, and dosing needs to be well matched to the system.</li>
             <li><strong>The coil is the heat transfer surface.</strong> Scale or biofilm on the coil goes straight to refrigeration performance and energy use. Good inhibitor control and bleed management pay for themselves.</li>
             <li><strong>Cleaning access.</strong> Getting to the coil, sprays and sump for a proper clean can be fiddlier than on an open tower, and some units need panels removed or specific access arrangements. That needs planning, especially on sites that can't lose refrigeration.</li>
-            <li><strong>Cleaning frequency.</strong> HSG274 Part 1 expects cooling towers to be cleaned and disinfected at least twice a year. For evaporative condensers, the frequency should be set by your risk assessment, taking account of the guidance. Either way, it goes in the written scheme.</li>
+            <li><strong>Cleaning frequency.</strong> HSG274 Part 1 (2024) links cleaning frequency to how quickly a system fouls, for towers and condensers alike, with typical intervals ranging from every three months in dirty environments to every 12 months for clean industrial plant. Your risk assessment should set the figure. Either way, it goes in the written scheme.</li>
             <li><strong>Different people looking after it.</strong> Evaporative condensers are often maintained by refrigeration engineers rather than the building services team. Make sure someone's clearly responsible for the water side, not just the refrigerant side.</li>
           </ul>
 
@@ -736,6 +745,7 @@ POSTS = [
     # ------------------------------------------------------------------ 11
     {
         "slug": "cooling-tower-handover-checklist",
+        "modified": "2026-10-20",
         "title": "Taking over a site with cooling towers: a handover checklist",
         "seo_title": "Taking Over a Site With Cooling Towers: Handover Checklist",
         "date": "2026-05-13",
@@ -777,7 +787,7 @@ POSTS = [
           <h3>Records</h3>
           <ul>
             <li>Is there a log book, and is it complete? Look for weekly dip slides, chemistry, dosing checks, <em>Legionella</em> results from a UKAS-accredited lab, and corrective actions.</li>
-            <li>When was the last clean and disinfection? Is there a certificate? HSG274 Part 1 expects cooling towers to be done at least twice a year.</li>
+            <li>When was the last clean and disinfection? Is there a certificate? Does the interval match the written scheme and what inspections show?</li>
             <li>When was the last <em>Legionella</em> sample, and what did it show? Any recent high results, and were they followed up?</li>
           </ul>
           <p>Our post on <a href="{R}blog/cooling-tower-log-book.html">what should be in a cooling tower log book</a> is a useful companion here.</p>
