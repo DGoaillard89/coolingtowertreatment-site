@@ -12,15 +12,14 @@ POSTS = [
         "slug": "how-often-should-a-cooling-tower-be-cleaned",
         "title": "How often should a cooling tower be cleaned and disinfected?",
         "seo_title": "How Often Should a Cooling Tower Be Cleaned? | HSG274",
-        "date": "2023-11-14",
+        "date": "2026-10-19",
         "desc": "How often HSG274 Part 1 (2024) expects cooling towers to be cleaned, why it depends on fouling, how a proper clean works and the signs yours is overdue.",
-        "modified": "2026-10-20",
         "tag": "Cleaning",
         "topic": "Cooling tower cleaning and disinfection",
         "services": ["cooling-tower-cleaning-disinfection", "cooling-tower-monitoring-sampling", "cooling-tower-shutdown-start-up-commissioning"],
         "body": """
           <p>It's one of the first questions we get asked when we take on a new site, usually followed by "and when was ours last done?" The short answer is <strong>as often as your tower fouls</strong>, which for a typical office comfort-cooling tower means at least twice a year. The longer answer is that some towers need it more often, and a clean done badly can do more harm than good.</p>
-          <p>November's a good time to think about it. The leaves are down, the summer's heat load is behind you, and plenty of towers are sitting on six months' worth of whatever the air has thrown at them. Here's what the guidance says, what a proper clean involves and how to tell if yours is overdue.</p>
+          <p>Late autumn is a good time to think about it. The leaves are coming down, the summer's heat load is behind you, and plenty of towers are sitting on six months' worth of whatever the air has thrown at them. Here's what the guidance says, what a proper clean involves and how to tell if yours is overdue.</p>
 
           <h2>What the guidance actually says</h2>
           <p>The technical guidance for evaporative cooling is HSG274 Part 1, which sits alongside the Approved Code of Practice, ACOP L8. HSG274 Part 1 was updated in 2024. Rather than one fixed interval, it says a system should be cleaned whenever it's known or suspected to be fouled, with the frequency worked out from inspections, your water treatment history and the environment the tower sits in. As a typical guide, not a rule, it gives:</p>
@@ -93,7 +92,7 @@ POSTS = [
         "slug": "notifying-local-authority-cooling-tower",
         "title": "Do you need to notify the council about your cooling tower?",
         "seo_title": "Cooling Tower Notification: Telling Your Local Authority",
-        "date": "2024-02-20",
+        "date": "2026-10-19",
         "desc": "The Notification of Cooling Towers and Evaporative Condensers Regulations 1992 explained: who notifies, what to send and when to update it.",
         "tag": "Compliance",
         "topic": "Cooling tower notification and compliance records",
@@ -165,13 +164,13 @@ POSTS = [
         "slug": "cooling-tower-start-up-after-shutdown",
         "title": "Bringing a cooling tower back into service after a shutdown",
         "seo_title": "Restarting a Cooling Tower After a Shutdown | HSG274",
-        "date": "2024-05-08",
+        "date": "2026-10-20",
         "desc": "Restarting an idle cooling tower? Why stagnant water is a Legionella risk, what HSG274 Part 1 expects before restart and a practical start-up sequence.",
         "tag": "Start-up",
         "topic": "Cooling tower start-up after a shutdown",
         "services": ["cooling-tower-shutdown-start-up-commissioning", "cooling-tower-cleaning-disinfection", "cooling-tower-monitoring-sampling"],
         "body": """
-          <p>May is when a lot of towers wake up. Comfort cooling that's been off since October gets switched back on, seasonal process lines start running, and someone in facilities gets asked to "just turn the tower on" before the first warm week arrives.</p>
+          <p>Spring is when a lot of towers wake up. Comfort cooling that's been off all winter gets switched back on, seasonal process lines start running, and someone in facilities gets asked to "just turn the tower on" before the first warm week arrives.</p>
           <p>That last bit is where it can go wrong. A cooling tower that's been sitting idle is at one of the riskiest points in its year, and flicking the fans on without a plan can throw out exactly the aerosol you've spent all year trying to control. Here's why, and how to bring a tower back properly.</p>
 
           <h2>Why an idle tower is a risk</h2>
@@ -217,7 +216,7 @@ POSTS = [
 
           <h2>The short version</h2>
           <p>Don't just flick the switch. Check how the tower was left, inspect it, get the dosing working, clean and disinfect if the scheme calls for it, and keep a close eye on <a href="{R}cooling-tower-monitoring-sampling.html">monitoring results</a> for the first few weeks. For more on what a proper clean involves, see <a href="{R}blog/how-often-should-a-cooling-tower-be-cleaned.html">how often a cooling tower should be cleaned</a>.</p>
-          <p>If you'd like a hand planning this year's restart, or writing a proper shutdown routine into your scheme, give us a ring. Booking it in a few weeks ahead makes everyone's life easier, including ours.</p>
+          <p>If you'd like a hand planning your next restart, or writing a proper shutdown routine into your scheme, give us a ring. Booking it in a few weeks ahead makes everyone's life easier, including ours.</p>
 """,
         "cta_title": "Tower been sitting idle?",
         "cta_text": "Tell us how it was left and when you need it running. We'll plan the inspection, clean and disinfection so it's back in service safely and on time.",
@@ -227,7 +226,7 @@ POSTS = [
         "slug": "positive-legionella-result-cooling-tower",
         "title": "Positive Legionella result in a cooling tower: the first 48 hours",
         "seo_title": "Positive Legionella Result in a Cooling Tower: First Steps",
-        "date": "2024-08-22",
+        "date": "2026-10-21",
         "desc": "Got a positive Legionella result from your cooling tower? A calm, practical guide to the first 48 hours: what HSG274 Part 1 expects and who to call.",
         "tag": "Results",
         "topic": "Positive Legionella result in a cooling tower",
@@ -298,7 +297,7 @@ POSTS = [
         "slug": "cooling-tower-dosing-failures",
         "title": "Dosing failures: spotting a struggling dosing system early",
         "seo_title": "Cooling Tower Dosing Failures: Early Warning Signs",
-        "date": "2024-11-12",
+        "date": "2026-10-21",
         "desc": "Cooling tower dosing systems fail quietly. The common causes, the warning signs to look for in your weekly checks and what to do when you spot one.",
         "tag": "Dosing",
         "topic": "Cooling tower dosing problems",
@@ -372,17 +371,16 @@ POSTS = [
     # ------------------------------------------------------------------ 6
     {
         "slug": "cooling-tower-log-book",
-        "modified": "2026-10-20",
         "title": "What should be in a cooling tower log book?",
         "seo_title": "What Should Be in a Cooling Tower Log Book? | ACOP L8",
-        "date": "2025-02-18",
+        "date": "2026-10-22",
         "desc": "What a cooling tower log book should contain under ACOP L8 and HSG274 Part 1, how long to keep records and the gaps inspectors tend to find.",
         "tag": "Records",
         "topic": "Cooling tower log book and records",
         "services": ["cooling-tower-log-books-compliance", "cooling-tower-legionella-risk-assessment", "cooling-tower-monitoring-sampling"],
         "body": """
           <p>If an inspector or environmental health officer visits your site to talk about your cooling towers, the first thing they'll ask for probably won't be to see the tower. It'll be the log book. That folder (or folder of PDFs) is how you prove the treatment programme is happening, not just that it was planned.</p>
-          <p>A good log book is also just useful. It's where trends show up, where problems get spotted early and where the next person to look after the site finds out what's been going on. February is a quiet month for most towers, so it's a good time to give yours a once-over. Here's what should be in it.</p>
+          <p>A good log book is also just useful. It's where trends show up, where problems get spotted early and where the next person to look after the site finds out what's been going on. Winter is a quiet time for most towers, so it's a good moment to give yours a once-over. Here's what should be in it.</p>
 
           <h2>What ACOP L8 says about records</h2>
           <p>ACOP L8 expects the duty holder to keep records that show Legionella risks are being managed. In broad terms, that means records of:</p>
@@ -464,14 +462,14 @@ POSTS = [
         "slug": "data-centre-cooling-tower-water-treatment",
         "title": "Data centre cooling towers: water treatment without risking uptime",
         "seo_title": "Data Centre Cooling Tower Water Treatment & Legionella",
-        "date": "2025-05-06",
+        "date": "2026-10-23",
         "desc": "How data centres can stay on top of cooling tower water treatment, cleaning and Legionella control without putting uptime at risk.",
         "tag": "Sectors",
         "topic": "Data centre cooling tower water treatment",
         "services": ["cooling-tower-water-treatment", "cooling-tower-cleaning-disinfection", "chemical-dosing-biocide-control"],
         "body": """
           <p>Data centres have a slightly awkward relationship with cooling towers. The towers are essential to keeping the halls cool, so nobody wants to touch them. But leaving them alone is exactly what you can't do. ACOP L8 and HSG274 Part 1 apply to a data centre's towers in just the same way as an office block's, and the cleaning, monitoring and treatment still have to happen.</p>
-          <p>The good news is that keeping on top of water treatment and keeping the lights on aren't in conflict. It just takes more planning than most sites. Here's how to approach it, with summer heat loads just around the corner.</p>
+          <p>The good news is that keeping on top of water treatment and keeping the lights on aren't in conflict. It just takes more planning than most sites. Here's how to approach it, ideally well before the summer heat loads arrive.</p>
 
           <h2>Why data centres are a bit different</h2>
           <ul>
@@ -526,7 +524,7 @@ POSTS = [
           <p>Our <a href="{R}blog/positive-legionella-result-cooling-tower.html">first 48 hours guide</a> explains the response in general terms.</p>
 
           <h2>What about adiabatic and hybrid coolers?</h2>
-          <p>Plenty of newer data centres use adiabatic or hybrid coolers instead of, or alongside, open cooling towers. They use far less water, but where a unit sprays or wets surfaces it can still create aerosol. HSG274 Part 1 expects the Legionella risk from any unit that can produce spray to be assessed, so don't assume they're automatically out of scope. Whether they need notifying to the local authority depends on the design, and it's worth getting a clear answer for your units.</p>
+          <p>Plenty of newer data centres use adiabatic or hybrid coolers instead of, or alongside, open cooling towers. They use far less water, but where a unit sprays or wets surfaces it can still create aerosol. HSG274 Part 1 expects the Legionella risk from any unit that can produce spray to be assessed, so don't assume they're automatically out of scope. Whether they need notifying to the local authority depends on the design, and it's worth getting a clear answer for your units. If your halls are on the M4 corridor, our <a href="{R}areas/thames-valley-berkshire.html">Slough and Thames Valley page</a> covers the local water and council side.</p>
 
           <h2>The short version</h2>
           <p>Use your redundancy to clean on schedule, make dosing as resilient as everything else on site, agree access for routine monitoring and plan your response to a high result in advance. Our <a href="{R}cooling-tower-water-treatment.html">water treatment</a> and <a href="{R}cooling-tower-cleaning-disinfection.html">cleaning and disinfection</a> services are built around sites that can't switch off. If you'd like to talk through how that could work on yours, we're happy to.</p>
@@ -539,14 +537,14 @@ POSTS = [
         "slug": "dip-slides-tvc-cooling-tower",
         "title": "Dip slides and TVCs explained: reading your weekly checks",
         "seo_title": "Cooling Tower Dip Slides and TVCs Explained",
-        "date": "2025-08-19",
+        "date": "2026-10-24",
         "desc": "How cooling tower dip slides work, how to take and read one properly, what TVC results mean against HSG274 Part 1 action levels and common mistakes.",
         "tag": "Monitoring",
         "topic": "Dip slides and TVC monitoring",
         "services": ["cooling-tower-monitoring-sampling", "positive-legionella-result-response", "cooling-tower-log-books-compliance"],
         "body": """
           <p>The weekly dip slide is probably the most-done and least-understood check on a cooling tower. Someone dunks a little plastic paddle in the water, pops it in an incubator, reads it a couple of days later and writes a number in the log book. But what is that number actually telling you, and what should you do with it?</p>
-          <p>August is a good month to ask. Warm weather and heavy loads mean counts can move quickly, and the dip slide is usually the first place you'll see it. Here's a plain-English guide.</p>
+          <p>Late summer is a good time to ask. Warm weather and heavy loads mean counts can move quickly, and the dip slide is usually the first place you'll see it. Here's a plain-English guide.</p>
 
           <h2>What a dip slide measures</h2>
           <p>A dip slide is a plastic paddle coated with a growth medium. You dip it in the cooling water, incubate it, and bacteria in the water grow into visible spots (colonies) on the surface. By comparing the slide with a chart supplied by the manufacturer, you get an estimate of the total viable count, or TVC: roughly how many bacteria per millilitre were in the water.</p>
@@ -614,10 +612,9 @@ POSTS = [
     # ------------------------------------------------------------------ 9
     {
         "slug": "cooling-tower-vs-evaporative-condenser",
-        "modified": "2026-10-20",
         "title": "Cooling tower or evaporative condenser? What it means for Legionella control",
         "seo_title": "Cooling Tower vs Evaporative Condenser: Legionella Control",
-        "date": "2025-11-11",
+        "date": "2026-10-24",
         "desc": "How cooling towers and evaporative condensers differ, why both carry a Legionella risk, and what changes for treatment, cleaning and monitoring.",
         "tag": "Systems",
         "topic": "Evaporative condenser treatment",
@@ -681,14 +678,14 @@ POSTS = [
         "slug": "cooling-tower-bleed-conductivity-control",
         "title": "Bleed-off and conductivity control: getting cycles of concentration right",
         "seo_title": "Cooling Tower Bleed-Off & Cycles of Concentration",
-        "date": "2026-02-24",
+        "date": "2026-10-26",
         "desc": "What cycles of concentration mean, how bleed-off and conductivity control work, and what happens when the setpoint is too high or too low.",
         "tag": "Chemistry",
         "topic": "Cooling tower bleed and conductivity control",
         "services": ["chemical-dosing-biocide-control", "cooling-tower-water-treatment", "cooling-tower-monitoring-sampling"],
         "body": """
           <p>Of all the bits of kit on a cooling tower, the bleed valve gets the least love. It's a small solenoid valve and a probe, tucked away in the pipework, quietly letting water go to drain. But get it wrong and you'll either be pouring water and chemicals down the drain, or slowly scaling up the system and making life easier for bacteria.</p>
-          <p>February is a good time to look at it. Loads are low, the tower's ticking over, and it's a sensible moment to check your setpoints before the summer heat arrives. Here's how it all works.</p>
+          <p>Winter is a good time to look at it. Loads are low, the tower's ticking over, and it's a sensible moment to check your setpoints before the summer heat arrives. Here's how it all works.</p>
 
           <h2>Why towers need bleeding at all</h2>
           <p>A cooling tower loses water by evaporation. But only the water evaporates. The dissolved minerals and salts that came in with the mains water stay behind. Top the tower up with fresh water, more minerals come in, more water evaporates, and the concentration keeps rising.</p>
@@ -716,7 +713,7 @@ POSTS = [
             <li>Treatment chemicals go down the drain before they've done their job, so chemical costs go up too</li>
             <li>Inhibitor levels can drop if dosing doesn't keep pace</li>
           </ul>
-          <p>The setpoint is a balance, and it should be set by whoever designs your treatment programme based on your make-up water quality (things like hardness and alkalinity) and the inhibitor you're using. Hard water areas, which include much of London and the South East, need particular care. Some sites soften the make-up water to allow more cycles.</p>
+          <p>The setpoint is a balance, and it should be set by whoever designs your treatment programme based on your make-up water quality (things like hardness and alkalinity) and the inhibitor you're using. Hard water areas, which include <a href="{R}areas/london.html">much of London</a> and <a href="{R}areas/">the South East</a>, need particular care. Some sites soften the make-up water to allow more cycles.</p>
 
           <div class="callout">
             <span class="callout__k">A typical scenario</span>
@@ -745,10 +742,9 @@ POSTS = [
     # ------------------------------------------------------------------ 11
     {
         "slug": "cooling-tower-handover-checklist",
-        "modified": "2026-10-20",
         "title": "Taking over a site with cooling towers: a handover checklist",
         "seo_title": "Taking Over a Site With Cooling Towers: Handover Checklist",
-        "date": "2026-05-13",
+        "date": "2026-10-27",
         "desc": "New FM contract, new lease or newly acquired site with cooling towers? A practical handover checklist covering records, roles, notification and the plant.",
         "tag": "Compliance",
         "topic": "Cooling tower site handover",
@@ -835,7 +831,7 @@ POSTS = [
         "slug": "cooling-tower-heatwave-legionella-risk",
         "title": "Heatwaves and cooling towers: why hot spells test your controls",
         "seo_title": "Heatwaves and Cooling Towers: Managing Legionella Risk",
-        "date": "2026-08-18",
+        "date": "2026-10-28",
         "desc": "Why hot weather puts cooling tower Legionella controls under pressure, what tends to go wrong in a heatwave and a practical checklist before the next one.",
         "tag": "Seasonal",
         "topic": "Cooling tower heatwave preparation",
