@@ -270,9 +270,9 @@ def build_home():
         <div>
           <span class="eyebrow">Coverage</span>
           <h2>West London roots, towers looked after up and down the country.</h2>
-          <p>We're based in Chiswick, West London, and most of our work is in London and the surrounding counties. We also look after sites across the rest of the UK, so if you manage plant in several regions, one contractor can cover the lot.</p>
+          <p>We're based in Chiswick, West London, and most of our work is in London and the surrounding counties. We also look after sites across the rest of the UK, so if you manage plant in several regions, one contractor can cover the lot. Each area page below covers the local sites, water and access.</p>
           <ul class="areas">
-            <li>Central London</li><li>West London</li><li>City &amp; Docklands</li><li>Surrey</li><li>Berkshire</li><li>Hertfordshire</li><li>Buckinghamshire</li><li>Kent</li><li>Essex</li><li>Middlesex</li><li>Slough &amp; the M4 corridor</li><li>Nationwide</li>
+            <li><a href="areas/london.html">London</a></li><li><a href="areas/london.html">City &amp; Docklands</a></li><li><a href="areas/thames-valley-berkshire.html">Slough &amp; the M4 corridor</a></li><li><a href="areas/thames-valley-berkshire.html">Berkshire</a></li><li><a href="areas/hertfordshire.html">Hertfordshire</a></li><li><a href="areas/surrey.html">Surrey</a></li><li><a href="areas/kent.html">Kent</a></li><li><a href="areas/essex.html">Essex</a></li><li>Buckinghamshire</li><li>Middlesex</li><li><a href="areas/">All areas, UK-wide</a></li>
           </ul>
         </div>
         <div class="contact-card">

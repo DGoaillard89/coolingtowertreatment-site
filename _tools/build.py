@@ -23,11 +23,15 @@ BRAND = "Cooling Tower Treatment"
 PHONE = "020 3633 6064"
 TEL = "tel:+442036336064"
 TODAY = datetime.date.today().isoformat()
+# Sitemap <lastmod> for non-post pages. Bump this by hand when page content changes, so a plain
+# rebuild doesn't pretend every page changed. Posts use their own "date".
+LASTMOD = "2026-10-28"
 OG_IMAGE = DOMAIN + "/assets/og-image.png"
 LOGO_PNG = DOMAIN + "/assets/logo.png"
 AREAS = ["London", "Home Counties", "United Kingdom"]
 
-POSTS_SORTED = sorted(POSTS, key=lambda p: p["date"], reverse=True)
+# Newest first; posts sharing a date keep their POSTS order (later in the list = newer).
+POSTS_SORTED = [p for _, p in sorted(enumerate(POSTS), key=lambda ip: (ip[1]["date"], ip[0]), reverse=True)]
 POST_BY_SLUG = {p["slug"]: p for p in POSTS}
 
 LOGO_SVG = (
@@ -111,7 +115,7 @@ def faq_ld(faqs):
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}} for q, a in faqs
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": html.unescape(strip_tags(a))}} for q, a in faqs
         ],
     }
 
@@ -225,6 +229,7 @@ def footer(root):
             <li><a href="{root}about.html">About us</a></li>
             <li><a href="{root}services.html">All services</a></li>
             <li><a href="{root}sectors.html">Sectors we work in</a></li>
+            <li><a href="{root}areas/">Areas we cover</a></li>
             <li><a href="{root}index.html#process">How it works</a></li>
             <li><a href="{root}faqs.html">FAQs</a></li>
             <li><a href="{root}blog/">Blog</a></li>
@@ -364,6 +369,8 @@ def related_posts_for_service(slug):
 
 
 def build_service(s):
+    from areas import where_line
+
     root = ""
     crumbs = [("Home", ""), ("Services", "services.html"), (s["short"], None)]
     included = "\n".join(
@@ -408,6 +415,7 @@ def build_service(s):
       <div class="wrap">
         <h2 class="block-title">Related services</h2>
 {related_services(s["related"], root)}
+{where_line(root)}
 {posts_html}      </div>
     </section>
 
@@ -547,7 +555,9 @@ def build_sitemap(entries):
 
 def main():
     from pages import build_home, build_services_hub, build_sectors, build_faqs, build_about, build_privacy, build_404
+    from areas import AREAS, build_area, build_areas_hub
 
+    TODAY = LASTMOD
     entries = [("", TODAY)]
     build_home()
     build_services_hub()
@@ -563,6 +573,10 @@ def main():
     entries.append(("about.html", TODAY))
     build_privacy()
     entries.append(("privacy.html", TODAY))
+    build_areas_hub()
+    entries.append(("areas/", TODAY))
+    for a in AREAS:
+        entries.append((build_area(a), TODAY))
     build_404()
     build_blog_index()
     entries.append(("blog/", POSTS_SORTED[0]["date"] if POSTS_SORTED else TODAY))

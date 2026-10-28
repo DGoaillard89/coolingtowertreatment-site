@@ -93,7 +93,7 @@ FAQ_GROUPS = [
         ("Can you take over from our current water treatment company?",
          "Yes. We start by reviewing your programme, dosing equipment, risk assessment and log book so nothing gets missed, then agree a handover date. If the current setup is fine, we'll say so rather than changing things for the sake of it. Our <a href=\"blog/cooling-tower-handover-checklist.html\">handover checklist</a> shows what we look at."),
         ("Where do you work?",
-         "Nationwide. We're based in Chiswick, West London, and specialise in London and the Home Counties, but we look after sites across the UK too, which suits clients with plant in several regions."),
+         "Nationwide. We're based in Chiswick, West London, and specialise in London and the Home Counties, but we look after sites across the UK too, which suits clients with plant in several regions. Our <a href=\"areas/\">areas we cover</a> page has local detail for London, the Thames Valley, Hertfordshire, Surrey, Kent and Essex."),
         ("How much does cooling tower water treatment cost?",
          "It depends on the size and number of systems, how often we visit and what's included. We'll look at your site and give you a clear, itemised quote with no obligation. Call us or use the quote form and tell us a bit about your system."),
     ]),
