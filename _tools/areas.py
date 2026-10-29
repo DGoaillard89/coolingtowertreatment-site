@@ -27,15 +27,14 @@ AREAS = [
         "icon": "office",
         "code": "AREA · LDN",
         "title": "London Cooling Tower Water Treatment & Legionella Control",
-        "desc": "Cooling tower and evaporative condenser treatment across London, from City rooftops to Docklands data halls. Based in Chiswick, W4.",
+        "desc": "Cooling tower and evaporative condenser treatment across London, from City rooftops to Park Royal cold stores. Based in Chiswick, W4.",
         "h1": "Cooling tower water treatment in London",
-        "lede": "Rooftop towers in the City, hospital plant floors, Docklands data halls and cold stores in Park Royal. We're based in Chiswick, W4, and London is where most of our work happens.",
-        "card": "City and West End rooftops, Docklands data halls, hospitals and industrial sites in all 32 boroughs and the Square Mile.",
+        "lede": "Rooftop towers in the City, hospital plant floors, Canary Wharf podiums and cold stores in Park Royal. We're based in Chiswick, W4, and London is where most of our work happens.",
+        "card": "City and West End rooftops, Canary Wharf, hospitals and industrial sites in all 32 boroughs and the Square Mile.",
         "body": f"""
           <h2>Where London's wet cooling lives</h2>
           <p>Most of London's cooling towers are hidden in plain sight. They sit on the roofs of City and West End office blocks, behind louvres on hospital plant floors, in basement plant rooms with ducted air paths, and on the podium decks of the bigger Canary Wharf buildings. Out in Park Royal, along the Lea Valley and beside the river in the east, you'll find the industrial side: food production, cold stores with evaporative condensers on the refrigeration plant, and warehouses that need chilled space all year.</p>
-          <p>Then there are the data halls. Docklands has been a data centre hub for a long time, and there are more out west towards Hayes and Heathrow. Plenty of newer halls use dry or adiabatic coolers, but a good number still reject heat through open towers.</p>
-          <p>Each setting changes how the job gets done. An office tower is usually close to openable windows, fresh-air intakes or a busy pavement, so drift control and a clean, well-treated pond matter to the people below. A hospital wants results passed straight to its Water Safety Group. A data hall wants every intervention booked through change control. We plan the programme around the building, not the other way round.</p>
+          <p>Each setting changes how the job gets done. An office tower is usually close to openable windows, fresh-air intakes or a busy pavement, so drift control and a clean, well-treated pond matter to the people below. A hospital wants results passed straight to its Water Safety Group. A food site or cold store wants work fitted around deliveries and production. We plan the programme around the building, not the other way round.</p>
 
           <h2>Hard London water and what it does to a tower</h2>
           <p>London's mains water is mostly hard to very hard. Thames Water supplies most of the capital, with Affinity Water in parts of the north and west, Essex &amp; Suffolk Water in parts of the east and SES Water in parts of the south. A lot of it starts life in the Thames, the Lee and the chalk, which is where the calcium comes from.</p>
@@ -76,44 +75,44 @@ AREAS = [
         "name": "Thames Valley & Berkshire",
         "ld_type": "AdministrativeArea",
         "ld_names": ["Berkshire", "Slough", "Reading", "Thames Valley"],
-        "icon": "datacentre",
+        "icon": "tower",
         "code": "AREA · M4",
         "title": "Slough & Berkshire Cooling Tower Treatment | Thames Valley",
-        "desc": "Cooling tower water treatment for data centres, business parks and logistics in Slough, Reading and the Thames Valley. Up the M4 from Chiswick.",
+        "desc": "Cooling tower water treatment for business parks, hospitals, cold stores and logistics in Slough, Reading and the Thames Valley. Up the M4 from Chiswick.",
         "h1": "Cooling tower treatment in Slough, Berkshire and the Thames Valley",
-        "lede": "Data halls on the M4 corridor, campuses in Reading and Bracknell, cold stores by Heathrow. The M4 starts just down the road from our Chiswick office, so this patch is a straight run west.",
-        "card": "Slough's data centre cluster, Reading and Bracknell business parks, and logistics around Colnbrook and Poyle.",
+        "lede": "Trading estates in Slough, campuses in Reading and Bracknell, cold stores by Heathrow. The M4 starts just down the road from our Chiswick office, so this patch is a straight run west.",
+        "card": "Slough Trading Estate, Reading and Bracknell business parks, hospitals, and logistics around Colnbrook and Poyle.",
         "body": f"""
           <h2>The M4 corridor runs on cooling</h2>
-          <p>Follow the M4 west out of London and you're soon in one of the busiest stretches of cooling plant in the country. Slough is one of the UK's best-known data centre clusters, with many halls on or near the Slough Trading Estate and new ones still being built. Reading, Bracknell and Maidenhead add business parks and corporate campuses running chilled-water systems, and the Heathrow side of the patch, around Colnbrook and Poyle, is full of warehousing and cold storage.</p>
-          <p>Not every site here has an open tower. Lots of the newer halls use dry coolers or adiabatic units, and those still need a Legionella risk assessment if they wet a surface or make spray. {ext(HSG274, "HSG274 Part 1")} is clear that any unit able to produce aerosol needs its risk assessing. But open towers and evaporative condensers are still common on older halls, process sites and food distribution, and they're the ones that need a full treatment programme.</p>
+          <p>Follow the M4 west out of London and you're soon in a stretch with a lot of cooling plant. The Slough Trading Estate mixes manufacturing, food production and warehousing. Reading, Bracknell and Maidenhead add business parks and corporate campuses running chilled-water systems. The Heathrow side of the patch, around Colnbrook and Poyle, is full of distribution sheds and cold storage, where evaporative condensers keep the refrigeration plant going.</p>
+          <p>Not every site here has an open tower. Plenty of newer buildings use dry coolers or adiabatic units, and those still need a Legionella risk assessment if they wet a surface or make spray. {ext(HSG274, "HSG274 Part 1")} is clear that any unit able to produce aerosol needs its risk assessing. But open towers and evaporative condensers are still common on older office plant, process sites and food distribution, and they're the ones that need a full treatment programme.</p>
 
-          <h2>Working inside data centre change control</h2>
-          <p>If you run a data hall you'll know the drill: method statements, change requests, approved windows, escorts and badge access. We work within it rather than around it. In practice that means:</p>
+          <h2>Working around sites that can't stop</h2>
+          <p>A cold store full of stock, a hospital plant floor or a production line can't just switch its cooling off for the day. We plan the work around that rather than asking you to. In practice that means:</p>
           <ul>
-            <li>cleaning one cell or one tower at a time while the N+1 capacity carries the load,</li>
-            <li>raising dosing changes and setpoint adjustments as changes, not quiet tweaks,</li>
-            <li>taking samples at agreed times with escorts booked ahead,</li>
-            <li>writing reports in a format your auditors and operations team already use.</li>
+            <li>cleaning one cell or one tower at a time while the rest carries the load,</li>
+            <li>agreeing dosing changes and setpoint adjustments with your engineers before we make them,</li>
+            <li>taking samples at agreed times, with any escorts or permits booked ahead,</li>
+            <li>writing reports in a format your auditors and maintenance team already use.</li>
           </ul>
-          <p>Vetting and inductions take time on a first visit, so we build them into the start of the programme. Our article on <a href="{{R}}blog/data-centre-cooling-tower-water-treatment.html">data centre water treatment</a> goes into more detail.</p>
+          <p>Site inductions take time on a first visit, so we build them into the start of the programme. Our article on <a href="{{R}}blog/cooling-tower-handover-checklist.html">taking over a site with cooling towers</a> covers what to pin down early.</p>
 
           <h2>Water in the Thames Valley</h2>
           <p>Reading, Newbury and most of Maidenhead get their water from Thames Water. Slough is split, with Affinity Water serving parts of the town and its surroundings, and South East Water supplies parts of east Berkshire around Bracknell and Wokingham. Most of the area's water is hard, drawn from the Thames and the chalk. Your supplier's postcode checker will tell you which side of the line you're on.</p>
-          <p>For a large data centre tower, hardness has a real cost. On a hot day evaporation is heavy, and every litre that goes up the stack leaves its calcium behind. Set the bleed too tight and you waste water and chemical. Set it too loose and condenser tubes scale up on plant you can't easily take offline. Many larger sites here soften or otherwise pre-treat the make-up. If yours does, the softener needs watching too, because one missed regeneration sends hard water into a system tuned for soft.</p>
+          <p>For a busy tower, hardness has a real cost. On a hot day evaporation is heavy, and every litre that goes up the stack leaves its calcium behind. Set the bleed too tight and you waste water and chemical. Set it too loose and condenser tubes scale up on plant you can't easily take offline. Many larger sites here soften or otherwise pre-treat the make-up. If yours does, the softener needs watching too, because one missed regeneration sends hard water into a system tuned for soft.</p>
 
           <h2>Notification in Berkshire</h2>
           <p>Berkshire has no county council. It's six unitary councils: Slough, Reading, Wokingham, Bracknell Forest, Windsor and Maidenhead, and West Berkshire. Notification under the {ext(NOTIFY_REGS, "1992 regulations")} goes to whichever one your site sits in, through your local council's environmental health team. On a campus with several towers, every one goes on the notice, and towers added during an expansion need notifying as well.</p>
 
           <h2>Getting there</h2>
-          <p>From Chiswick we're on the M4 within minutes, which makes Slough and the Heathrow side easy to reach for routine visits, with Reading and Newbury further along the same road. Business parks usually have parking and ground-level plant yards. Data centres are the opposite: everything goes through the gatehouse, so we agree vehicle details and visit slots in advance.</p>
+          <p>From Chiswick we're on the M4 within minutes, which makes Slough and the Heathrow side easy to reach for routine visits, with Reading and Newbury further along the same road. Business parks usually have parking and ground-level plant yards. Secure logistics sites and hospitals are the opposite: everything goes through the gatehouse or estates office, so we agree vehicle details and visit slots in advance.</p>
 """,
         "towns_h2": "Towns we cover in the Thames Valley",
         "towns": ["Slough", "Langley", "Colnbrook", "Poyle", "Iver", "Windsor", "Maidenhead", "Reading", "Theale", "Wokingham", "Bracknell", "Ascot", "Twyford", "Newbury", "Thatcham", "Henley-on-Thames", "Marlow", "High Wycombe", "Beaconsfield", "Gerrards Cross"],
         "towns_note": "We cover all six Berkshire unitary areas plus south Buckinghamshire and the Henley side of Oxfordshire.",
         "faqs": [
-            ("Can you treat data centre cooling towers in Slough without risking uptime?",
-             "Yes. We plan cleans cell by cell or around N+1 capacity, raise dosing and setpoint changes through your change control, and book sampling visits and escorts in advance. Monitoring and records follow HSG274 Part 1, presented in a way your audit and operations teams can use."),
+            ("Can you treat a cooling tower in Slough without shutting the site down?",
+             "Usually, yes. Where there's more than one cell or tower we clean them in turn while the rest carries the load, agree dosing and setpoint changes with your engineers first, and book sampling visits and escorts in advance. Monitoring and records follow HSG274 Part 1."),
             ("Which council do we notify about a cooling tower in Slough or Reading?",
              f"The unitary council your site sits in, through its environmental health team. Berkshire has six: Slough, Reading, Wokingham, Bracknell Forest, Windsor and Maidenhead, and West Berkshire. The {ext(NOTIFY_REGS, 'Notification of Cooling Towers and Evaporative Condensers Regulations 1992')} require written notice of each wet tower and evaporative condenser."),
             ("Do adiabatic coolers on the M4 corridor need Legionella control?",
@@ -121,7 +120,7 @@ AREAS = [
             ("Is the water hard in Slough and Reading?",
              "Mostly, yes. Thames Water supplies much of the area and Affinity Water serves parts of Slough, and both draw heavily on the Thames and chalk. That limits safe cycles of concentration, so bleed control and inhibitor choice matter. Check your postcode with your supplier and we'll test the make-up on site."),
         ],
-        "posts": ["data-centre-cooling-tower-water-treatment", "cooling-tower-dosing-failures", "cooling-tower-bleed-conductivity-control"],
+        "posts": ["cooling-tower-handover-checklist", "cooling-tower-dosing-failures", "cooling-tower-bleed-conductivity-control"],
     },
     # ------------------------------------------------------------------ Hertfordshire
     {
